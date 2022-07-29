@@ -3,9 +3,11 @@ import csv
 from spacy.lang.de.stop_words import STOP_WORDS
 from collections import Counter
 
-# 1. Den Text in Absätze teilen
-def csv_to_paragraphs(filename):
-    """ A function that reads a csv file and separates it into paragraphs.
+# Pure Frequency Approach (stop words)
+# Gesamten Text in einem String speichern, diesen tokenisieren, Stopwörter entfernen und die häufigsten Lemmata ausgeben lassen
+
+def csv_to_string(filename):
+    """ A function that reads a csv file and saves it in a string, excluding headers.
 
     Parameters
     ----------
@@ -13,33 +15,21 @@ def csv_to_paragraphs(filename):
 
     Return
     ------
-    manifesto_paragraphs: a list of paragraphs (text chunks separated by headers ("H"))
+    manifesto_as_str: string containing text chunks excluding headers ("H")
     """
     with open(filename, newline='', encoding='utf8') as csv_file:
         reader = csv.reader(csv_file)
-        current_paragraph = ""
-        manifesto_paragraphs = []
+        manifesto_as_str = ""
+        next(reader)
         for line in reader: 
-            if line[1] != "H":
-                current_paragraph = current_paragraph + " " + line[0]
-            elif line[1] == "H":
-                manifesto_paragraphs.append(current_paragraph)
-                current_paragraph = ""
-    return manifesto_paragraphs
-# SPÄTER: 1. Zelle weg!
+            if line[1] != "H" and line[1] != "NA":
+                manifesto_as_str = manifesto_as_str + " " + line[0]
+            #elif line[1] == "H" or line[1] == "NA":
+            #    continue 
+    return manifesto_as_str
 
-##### maybe remove this part
-paragraphs_long = []
-for paragraph in paragraphs:
-    if len(paragraph) < 2000:
-        continue
-    else:
-        paragraphs_long.append(paragraph)
-print(len(paragraphs_long)) #268
-
-# 2. Lemmatisieren mit spaCy 
 def lemmatize(manifesto_paragraphs):
-    """ A function that lemmatizes the tokens in a given file using spaCy's German package.
+    """ A function that lemmatizes the tokens in a given file using spaCy's German model.
 
     Parameters
     ----------
@@ -58,7 +48,6 @@ def lemmatize(manifesto_paragraphs):
 
     return manifesto_lemmatized
 
-lemmatize(csv_to_paragraphs('41113_202109.csv'))
 
 # 3. Stoppwörter und Interpunktion entfernen
 STOP_WORDS.add("das")
@@ -67,9 +56,13 @@ STOP_WORDS.add("wir")
 STOP_WORDS.add("für")
 
 punctuation = [",", ".", "!", "?", "-", "_", ":", ";", "--", "-", " –"]
+custom_stop_words = ["der", "die", "das", "für", "grüne", "linke", "afd", "spd", "cdu", "csu", "fdp", "Für"]
+STOP_WORDS.update(custom_stop_words)
+STOP_WORDS.update(punctuation)
 
-def remove_stopwords_and_punct(manifesto_tokenized):
-    """ A function that removes stop words and punctuation.
+
+def remove_stopwords(manifesto_tokenized):
+    """ A function that removes stop words.
 
     Parameters
     ----------
@@ -77,15 +70,11 @@ def remove_stopwords_and_punct(manifesto_tokenized):
 
     Return
     ------
-    manifesto_clean: list of lemmas excluding stop words and punctuation
+    manifesto_clean: list of lemmas excluding stop words
     """
     manifesto_clean = []
     for token in manifesto_tokenized:
-        if token in STOP_WORDS:
-            continue
-        if token in punctuation:
-            continue
-        else:
+        if token not in STOP_WORDS:
             manifesto_clean.append(token) 
     return manifesto_clean
 
@@ -105,7 +94,7 @@ def most_frequent(manifesto_clean):
     return c.most_common(5)
 
 
-def pipeline(filename):
+def freq_pipeline(filename):
     """ A function that takes the filename of a csv file and performs the operations previously introduced as a pipeline.
 
     Parameters
@@ -116,10 +105,10 @@ def pipeline(filename):
     ------
     5 most common words occuring in the document and their frequency
     """ 
-    return most_frequent(remove_stopwords_and_punct(lemmatize(csv_to_string(filename))))
+    return most_frequent(remove_stopwords(lemmatize(csv_to_string(filename))))
 
 filenames = ['41113_202109.csv', '41223_202109.csv', '41320_202109.csv', '41420_202109.csv', '41521_202109.csv', '41953_202109.csv']
 for filename in filenames:
-    print(pipeline(filename))
+    print(freq_pipeline(filename))
 
-print(pipeline('41953_202109.csv'))
+print(freq_pipeline('41953_202109.csv'))

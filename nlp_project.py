@@ -3,7 +3,8 @@ import csv
 from spacy.lang.de.stop_words import STOP_WORDS
 from collections import Counter
 
-# 1. Ganzen Text ohne Überschriften in einem String speichern
+# 1. Frequency Methode
+# Gesamten Text in einem String speichern, diesen tokenisieren, Stopwörter entfernen und die häufigsten Lemmata ausgeben lassen
 def csv_to_string(filename):
     """ A function that reads a csv file and saves it in a string, excluding paragraphs.
 
@@ -18,6 +19,7 @@ def csv_to_string(filename):
     with open(filename, newline='', encoding='utf8') as csv_file:
         reader = csv.reader(csv_file)
         manifesto_as_str = ""
+        next(reader)
         for line in reader: 
             if line[1] != "H":
                 manifesto_as_str = manifesto_as_str + " " + line[0]
@@ -25,9 +27,10 @@ def csv_to_string(filename):
                 continue 
     return manifesto_as_str
 
-# 2. Tokenisieren mit spaCy 
-def lemmatize(manifesto_as_str):
-    """ A function that lemmatizes the tokens in a given file using spaCy's German package.
+custom_stop_words = ["der", "die", "das", "für", "grüne", "linke", "afd", "spd", "cdu", "csu", "fdp", "Für"]
+
+def tokenize(manifesto_as_str):
+    """ A function that tokenizes the tokens in a given file using spaCy's German model.
 
     Parameters
     ----------
@@ -35,29 +38,33 @@ def lemmatize(manifesto_as_str):
 
     Return
     ------
-    manifesto_lemmatized: string lemmatized into lowercase words
+    manifesto_tokenized: string tokenized into lowercase words
     """
     nlp = spacy.load("de_core_news_sm")
     manifesto_processed = nlp(manifesto_as_str)
-    manifesto_lemmatized = []
+    manifesto_tokenized = []
+    for token in manifesto_tokenized:
+        if token.text not in STOP_WORDS:
+            if token.pos == "ADP":
+                custom_stop_words.append(token.text)
+            elif token.pos == "PUNCT":
+                custom_stop_words.append(token.text)
+            elif token.pos == "NUM":
+                custom_stop_words.append(token.text)
     for token in manifesto_processed:
-        manifesto_lemmatized.append(token.lemma_.lower())
-    return manifesto_lemmatized
+        manifesto_tokenized.append(token.text.lower())
+    return manifesto_tokenized
 
-# 3. Stoppwörter und Interpunktion entfernen
-STOP_WORDS.add("das")
-STOP_WORDS.add("die")
-STOP_WORDS.add("wir")
-STOP_WORDS.add("für")
+#punctuation = [",", ".", "!", "?", "-", "_", ":", ";", "--", "-", " –"]
+STOP_WORDS.update(custom_stop_words)
+#STOP_WORDS.update(punctuation)
 
-punctuation = [",", ".", "!", "?", "-", "_", ":", ";", "--", "-", " –"]
-
-def remove_stopwords_and_punct(manifesto_tokenized):
+def remove_stopwords(manifesto_tokenized):
     """ A function that removes stop words and punctuation.
 
     Parameters
     ----------
-    manifesto_lemmatized: list with lowercase lemmas for each token
+    manifesto_tokenized: list with lowercase tokens for each token
 
     Return
     ------
@@ -65,15 +72,11 @@ def remove_stopwords_and_punct(manifesto_tokenized):
     """
     manifesto_clean = []
     for token in manifesto_tokenized:
-        if token in STOP_WORDS:
-            continue
-        if token in punctuation:
-            continue
-        else:
+        if token not in STOP_WORDS:
             manifesto_clean.append(token) 
     return manifesto_clean
 
-# 4. Worthäufigkeiten zählen
+
 def most_frequent(manifesto_clean):
     """ A function that counts the occurrences of each word and prints the 5 most frequent words.
 
@@ -88,8 +91,7 @@ def most_frequent(manifesto_clean):
     c = Counter(manifesto_clean)
     return c.most_common(5)
 
-
-def pipeline(filename):
+def freq_pipeline(filename):
     """ A function that takes the filename of a csv file and performs the operations previously introduced as a pipeline.
 
     Parameters
@@ -100,10 +102,17 @@ def pipeline(filename):
     ------
     5 most common words occuring in the document and their frequency
     """ 
-    return most_frequent(remove_stopwords_and_punct(lemmatize(csv_to_string(filename))))
+    return most_frequent(remove_stopwords(tokenize(csv_to_string(filename))))
 
 filenames = ['41113_202109.csv', '41223_202109.csv', '41320_202109.csv', '41420_202109.csv', '41521_202109.csv', '41953_202109.csv']
 for filename in filenames:
-    print(pipeline(filename))
+    print(freq_pipeline(filename))
 
-print(pipeline('41953_202109.csv'))
+print(freq_pipeline('41953_202109.csv'))
+# 2. Häufigste Wörter pro lange Absätze
+
+# 3. Häufigste Dep-Rel "wir fordern/sagen/wollen" etc
+
+# 4. TF-IDF im Vergleich zu allen Wahlprogrammen
+
+# EIGENNAMEN? geopolitische sachen
