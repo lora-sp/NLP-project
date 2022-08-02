@@ -92,9 +92,13 @@ def most_frequent(manifesto_clean):
     ------
     3 most common words occuring in each paragraph and their frequency
     """   
+    c = Counter(paragraph)
+    most_common = []
     for paragraph in manifesto_clean:
-        c = Counter(paragraph)
-    return c.most_common(3)
+        #current_most_common = []
+        #current_most_common.append(c.most_common(3))
+        most_common.append(c.most_common(3))
+    return most_common
 
 
 print(most_frequent(remove_stopwords(lemmatize(csv_to_paragraphs('41113_202109.csv')))))
