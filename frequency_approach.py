@@ -28,7 +28,7 @@ def csv_to_string(filename):
             #    continue 
     return manifesto_as_str
 
-def lemmatize(manifesto_paragraphs):
+def lemmatize(manifesto_as_str):
     """ A function that lemmatizes the tokens in a given file using spaCy's German model.
 
     Parameters
@@ -40,11 +40,10 @@ def lemmatize(manifesto_paragraphs):
     manifesto_lemmatized: string lemmatized into lowercase words
     """
     nlp = spacy.load("de_core_news_sm")
+    manifesto_processed = nlp(manifesto_as_str)
     manifesto_lemmatized = []
-    for paragraph in manifesto_paragraphs:
-        manifesto_processed = nlp(paragraph)
-        for token in manifesto_processed:
-            manifesto_lemmatized.append(token.lemma_.lower())
+    for token in manifesto_processed:
+        manifesto_lemmatized.append(token.lemma_.lower())
 
     return manifesto_lemmatized
 
@@ -54,14 +53,15 @@ STOP_WORDS.add("das")
 STOP_WORDS.add("die")
 STOP_WORDS.add("wir")
 STOP_WORDS.add("für")
+STOP_WORDS.add("über")
 
 punctuation = [",", ".", "!", "?", "-", "_", ":", ";", "--", "-", " –"]
-custom_stop_words = ["der", "die", "das", "für", "grüne", "linke", "afd", "spd", "cdu", "csu", "fdp", "Für"]
+custom_stop_words = ["der", "die", "das", "für", "grüne", "linke", "afd", "spd", "cdu", "csu", "fdp", "Für", "über"]
 STOP_WORDS.update(custom_stop_words)
 STOP_WORDS.update(punctuation)
 
 
-def remove_stopwords(manifesto_tokenized):
+def remove_stopwords(manifesto_lemmatized):
     """ A function that removes stop words.
 
     Parameters
@@ -73,9 +73,9 @@ def remove_stopwords(manifesto_tokenized):
     manifesto_clean: list of lemmas excluding stop words
     """
     manifesto_clean = []
-    for token in manifesto_tokenized:
-        if token not in STOP_WORDS:
-            manifesto_clean.append(token) 
+    for lemma in manifesto_lemmatized:
+        if lemma not in STOP_WORDS:
+            manifesto_clean.append(lemma) 
     return manifesto_clean
 
 # 4. Worthäufigkeiten zählen
@@ -84,7 +84,7 @@ def most_frequent(manifesto_clean):
 
     Parameters
     ----------
-    manifesto_clean: list with lowercase tokens
+    manifesto_clean: list with lowercase lemmas, excluding stop words
 
     Return
     ------
@@ -112,3 +112,5 @@ for filename in filenames:
     print(freq_pipeline(filename))
 
 print(freq_pipeline('41953_202109.csv'))
+
+######## Alternativ: tf-idf anstatt stopwords

@@ -109,10 +109,9 @@ for filename in filenames:
     print(freq_pipeline(filename))
 
 print(freq_pipeline('41953_202109.csv'))
-# 2. Häufigste Wörter pro lange Absätze
 
-# 3. Häufigste Dep-Rel "wir fordern/sagen/wollen" etc
+# bei frequency approach: Häufigste Dep-Rel "wir fordern/sagen/wollen" etc # EIGENNAMEN? geopolitische sachen
 
-# 4. TF-IDF im Vergleich zu allen Wahlprogrammen
+# 3. tf-idf approach TF-IDF im Vergleich zu allen Wahlprogrammen
 
-# EIGENNAMEN? geopolitische sachen
+
