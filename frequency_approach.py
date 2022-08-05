@@ -2,6 +2,7 @@ import spacy
 import csv
 from spacy.lang.de.stop_words import STOP_WORDS
 from collections import Counter
+from spacy.matcher import Matcher
 
 # Pure Frequency Approach (stop words)
 # Gesamten Text in einem String speichern, diesen tokenisieren, Stopwörter entfernen und die häufigsten Lemmata ausgeben lassen
@@ -24,8 +25,7 @@ def csv_to_string(filename):
         for line in reader: 
             if line[1] != "H" and line[1] != "NA":
                 manifesto_as_str = manifesto_as_str + " " + line[0]
-            #elif line[1] == "H" or line[1] == "NA":
-            #    continue 
+
     return manifesto_as_str
 
 def lemmatize(manifesto_as_str):
@@ -95,7 +95,7 @@ def most_frequent(manifesto_clean):
 
 
 def freq_pipeline(filename):
-    """ A function that takes the filename of a csv file and performs the operations previously introduced as a pipeline.
+    """ A function that takes the filename of a csv file and performs all the functions previously introduced.
 
     Parameters
     ----------
@@ -111,6 +111,8 @@ filenames = ['41113_202109.csv', '41223_202109.csv', '41320_202109.csv', '41420_
 for filename in filenames:
     print(freq_pipeline(filename))
 
-print(freq_pipeline('41953_202109.csv'))
+
+###############################################
 
 ######## Alternativ: tf-idf anstatt stopwords
+
