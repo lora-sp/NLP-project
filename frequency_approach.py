@@ -108,8 +108,7 @@ def freq_pipeline(filename):
     return most_frequent(remove_stopwords(lemmatize(csv_to_string(filename))))
 
 filenames = ['41113_202109.csv', '41223_202109.csv', '41320_202109.csv', '41420_202109.csv', '41521_202109.csv', '41953_202109.csv']
-for filename in filenames:
-    print(freq_pipeline(filename))
+
 
 
 ###############################################

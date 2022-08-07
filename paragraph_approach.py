@@ -203,5 +203,5 @@ def paragraphs_to_patterns(longest_paragraphs):
 paragraphs_to_patterns(csv_to_paragraphs('41113_202109.csv'))
 
 #########################################################
-#bisschen ungenau daher dependency matching??
+#bisschen ungenau daher dependency matching statt pattern matching??
 
