@@ -4,11 +4,17 @@ from spacy.lang.de.stop_words import STOP_WORDS
 from collections import Counter
 from spacy.matcher import Matcher
 
+punctuation = [",", ".", "!", "?", "-", "_", ":", ";", "--", "-", " –", ">", "<", "%", " "]
+custom_stop_words = ["der", "die", "das", "grüne", "linke", "afd", "spd", "cdu", "csu", "fdp", "für", "über", "müssen"]
+STOP_WORDS.update(punctuation)
+STOP_WORDS.update(custom_stop_words)
+
+
 # Paragraph Approach (stop words + paragraph length)
 # Text in Absätze teilen, die längeren Absätze analysieren und dort die häufigsten Worte ausgeben lassen
 
 def csv_to_paragraphs(filename):
-    """ A function that reads a csv file, separates it into paragraphs and saves the 10 longest paragraphs in a string.
+    """ A function that reads a csv file, separates it into paragraphs and saves the longest paragraphs in a string.
 
     Parameters
     ----------
@@ -16,7 +22,7 @@ def csv_to_paragraphs(filename):
 
     Return
     ------
-    longest_paragraphs: a list of strings (text chunks separated by headers ("H")), representing the 10 longest paragraphs
+    longest_paragraphs: a list of strings (text chunks separated by headers ("H")), representing the longest paragraphs
     """
     with open(filename, newline='', encoding='utf8') as csv_file:
         reader = csv.reader(csv_file)
@@ -29,16 +35,20 @@ def csv_to_paragraphs(filename):
             elif line[1] == "H":
                 manifesto_paragraphs.append(current_paragraph) #
                 current_paragraph = ""
+        
+        #print(len(manifesto_paragraphs))
 
         longest_paragraphs = []
-        for i in range(10):
+        for paragraph in manifesto_paragraphs:
+            if len(paragraph) < 100:
+                continue
             longest_paragraph = max(manifesto_paragraphs, key=len)
             longest_paragraphs.append(longest_paragraph)
             manifesto_paragraphs.remove(longest_paragraph)
 
+        #print(len(longest_paragraphs))
+
     return  longest_paragraphs 
-
-
 
 def lemmatize(longest_paragraphs):
     """ A function that lemmatizes the tokens in a given file using spaCy's German model.
@@ -59,15 +69,12 @@ def lemmatize(longest_paragraphs):
         for token in paragraph_processed:
             current_paragraph_lemmatized.append(token.lemma_.lower())
 
+        " ".join(current_paragraph_lemmatized)
         paragraphs_lemmatized.append(current_paragraph_lemmatized)
         current_paragraph_lemmatized = []
 
     return paragraphs_lemmatized
 
-punctuation = [",", ".", "!", "?", "-", "_", ":", ";", "--", "-", " –", ">", "<"]
-custom_stop_words = ["der", "die", "das", "für", "grüne", "linke", "afd", "spd", "cdu", "csu", "fdp", "über", "frei"]
-STOP_WORDS.update(custom_stop_words)
-STOP_WORDS.update(punctuation)
 
 def remove_stopwords(paragraphs_lemmatized):
     """ A function that removes stop words for each paragraph.
@@ -128,8 +135,9 @@ filenames = ['41113_202109.csv', '41223_202109.csv', '41320_202109.csv', '41420_
 for filename in filenames:
     print(paragraph_pipeline(filename))
 
+
 ###################################################################################
-# Alternativ häufigste named entities für die 10 längsten Abschnitte ausgeben lassen
+# Alternativ häufigste named entities für die längsten Abschnitte ausgeben lassen
 
 def paragraphs_to_ne(paragraphs_lemmatized):
     """ A function that takes lemmatized strings and extracts the 10 most frequent named entites.
@@ -166,7 +174,7 @@ def named_entity_pipeline(filename):
 
     Return
     ------
-    10 most common named entities occuring in each of the 10 longest paragraphs of the document and their frequency
+    10 most common named entities occuring in each of the longest paragraphs of the document and their frequency
     """ 
     return (paragraphs_to_ne(lemmatize(csv_to_paragraphs(filename))))
 
@@ -204,4 +212,3 @@ paragraphs_to_patterns(csv_to_paragraphs('41113_202109.csv'))
 
 #########################################################
 #bisschen ungenau daher dependency matching statt pattern matching??
-
