@@ -3,7 +3,7 @@ import csv
 from spacy.lang.de.stop_words import STOP_WORDS
 
 punctuation = [",", ".", "!", "?", "-", "_", ":", ";", "--", "-", "–"] 
-custom_stop_words = ["der", "die", "das", "grüne", "linke", "afd", "spd", "cdu", "csu", "fdp", "für", "über", "müssen", "inn", "inne", "vgl", "kapitel", "frei", "demokrat", "beziehungsweise"]
+custom_stop_words = ["der", "die", "das", "grüne", "linke", "afd", "spd", "cdu", "csu", "fdp", "für", "über", "müssen", "inn", "inne", "vgl", "kapitel", "frei", "demokrat", "beziehungsweise", "anderer"]
 STOP_WORDS.update(punctuation)
 STOP_WORDS.update(custom_stop_words)
 
@@ -31,7 +31,7 @@ def csv_to_string(filename):
 
     return manifesto_as_str
 
-def lemmatize(manifesto_as_str):
+def lemmatize_str(manifesto_as_str):
     """ A function that lemmatizes the tokens in a given file using spaCy's German model.
 
     Parameters
@@ -51,7 +51,7 @@ def lemmatize(manifesto_as_str):
     return manifesto_lemmatized
 
 
-def remove_stopwords(manifesto_lemmatized):
+def remove_stopwords_str(manifesto_lemmatized):
     """ A function that removes stop words and punctuation.
 
     Parameters
@@ -72,7 +72,7 @@ def remove_stopwords(manifesto_lemmatized):
     return manifesto_clean
 
 #######################################################################################################################
-# variant 2: saving the whole manifesto into a list of strings in order to iterate over it
+# variant 2: saving the whole manifesto into a list of paragraphs in order to iterate over it
 
 
 def csv_to_paragraphs(filename):
@@ -109,7 +109,7 @@ def csv_to_paragraphs(filename):
         
     return  longest_paragraphs 
 
-def lemmatize(longest_paragraphs):
+def lemmatize_par(longest_paragraphs):
     """ A function that lemmatizes the tokens in a given file using spaCy's German model.
 
     Parameters
@@ -135,7 +135,7 @@ def lemmatize(longest_paragraphs):
     return paragraphs_lemmatized
 
 
-def remove_stopwords(paragraphs_lemmatized):
+def remove_stopwords_par(paragraphs_lemmatized):
     """ A function that removes stop words for each paragraph.
 
     Parameters
@@ -157,3 +157,9 @@ def remove_stopwords(paragraphs_lemmatized):
         current_paragraph_clean = []
 
     return manifesto_clean
+
+
+#######################################################################################################################
+
+
+filenames = ['41113_202109.csv', '41223_202109.csv', '41320_202109.csv', '41420_202109.csv', '41521_202109.csv', '41953_202109.csv']

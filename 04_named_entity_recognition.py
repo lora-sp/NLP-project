@@ -1,9 +1,10 @@
 import spacy
 from collections import Counter
+import preprocessing as pp
 
-#?????? hier vielleicht doch noch stopwords, idk, ja doch weil dann ist es wie bei string frequency aber ohne verben halt ne
+#?????? hier vielleicht doch noch stopwords drinlassen, idk, ja doch weil dann ist es wie bei string frequency aber ohne verben halt ne
 
-# Works with preprocessing variant 2 (manifesto divided into paragraphs)
+# Works with preprocessing variant 1 (manifesto as one continuous string)
 
 def paragraphs_to_ne(paragraphs_lemmatized):
     """ A function that takes lemmatized strings and extracts the 10 most frequent named entites.
@@ -19,11 +20,11 @@ def paragraphs_to_ne(paragraphs_lemmatized):
     nlp = spacy.load("de_core_news_sm")
     nes = []
 
-    for paragraph in paragraphs_lemmatized:
-        paragraph = ' '.join(paragraph)
-        paragraph_processed = nlp(paragraph)
-        for ent in paragraph_processed.ents:
-                nes.append(ent.text.lower() + " " + ent.label_)
+    #for paragraph in paragraphs_lemmatized:
+    paragraphs_lemmatized = ' '.join(paragraphs_lemmatized)
+    paragraph_processed = nlp(paragraphs_lemmatized)
+    for ent in paragraph_processed.ents:
+            nes.append(ent.text)
 
     most_common_nes = []
     c = Counter(nes)
@@ -42,5 +43,6 @@ def named_entity_pipeline(filename):
     ------
     10 most common named entities occuring in each of the longest paragraphs of the document and their frequency
     """ 
-    return (paragraphs_to_ne(lemmatize(csv_to_paragraphs(filename))))
+    return (paragraphs_to_ne((pp.lemmatize_str(pp.csv_to_string(filename)))))
 
+print(named_entity_pipeline('41113_202109.csv'))

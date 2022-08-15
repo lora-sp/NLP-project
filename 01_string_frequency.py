@@ -1,4 +1,6 @@
+import preprocessing as pp
 from collections import Counter
+import json
 
 #???? kritik: verben sind dabei
 
@@ -31,13 +33,15 @@ def freq_pipeline(filename):
     ------
     5 most common words occuring in the document and their frequency
     """ 
-    return most_frequent(remove_stopwords(lemmatize(csv_to_string(filename))))
+    return most_frequent(pp.remove_stopwords_str(pp.lemmatize_str(pp.csv_to_string(filename))))
 
-filenames = ['41113_202109.csv', '41223_202109.csv', '41320_202109.csv', '41420_202109.csv', '41521_202109.csv', '41953_202109.csv']
 
-for filename in filenames: 
+
+for filename in pp.filenames: 
     print(freq_pipeline(filename))
 
 
-
-
+for filename in pp.filenames: 
+    with open(''+ filename[:-4] +'.json', 'w', encoding='utf-8') as f:
+        f.write("01: string frequency")
+        json.dump(freq_pipeline(filename), f, ensure_ascii=False)
