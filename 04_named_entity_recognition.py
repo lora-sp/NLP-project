@@ -6,24 +6,25 @@ import preprocessing as pp
 
 # Works with preprocessing variant 1 (manifesto as one continuous string)
 
-def paragraphs_to_ne(paragraphs_lemmatized):
+def manifesto_to_ne(manifesto_lemmatized):
     """ A function that takes lemmatized strings and extracts the 10 most frequent named entites.
 
     Parameters
     ----------
-    paragraphs_lemmatized: a list of strings (lemmatized paragraphs)
+    manifesto_lemmatized: lst of str
+        Lowercase lemmatized tokens.
     
     Return
     ------
-    most_common_ne: 10 most frequent named entities
+    most_common_ne: lst of tuples
+        10 most common named entities occurring in the document and their frequency.
     """
     nlp = spacy.load("de_core_news_sm")
     nes = []
 
-    #for paragraph in paragraphs_lemmatized:
-    paragraphs_lemmatized = ' '.join(paragraphs_lemmatized)
-    paragraph_processed = nlp(paragraphs_lemmatized)
-    for ent in paragraph_processed.ents:
+    manifesto_lemmatized = ' '.join(manifesto_lemmatized)
+    manifesto_processed = nlp(manifesto_lemmatized)
+    for ent in manifesto_processed.ents:
             nes.append(ent.text)
 
     most_common_nes = []
@@ -32,16 +33,17 @@ def paragraphs_to_ne(paragraphs_lemmatized):
 
     return most_common_nes
 
-def named_entity_pipeline(filename):
-    """ A function that takes the filename of a csv file and performs all the functions previously introduced.
+def named_entity_recognition(filename):
+    """ A function that stores the 10 most common named entities occurring in the document and their frequency in a json file.
 
     Parameters
     ----------
-    filename: name of the csv-file
+    filename: str
+        Name of the csv file.
 
-    Return
-    ------
-    10 most common named entities occuring in each of the longest paragraphs of the document and their frequency
+    Returns
+    -------
+    None
     """ 
     return (paragraphs_to_ne((pp.lemmatize_str(pp.csv_to_string(filename)))))
 

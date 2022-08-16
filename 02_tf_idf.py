@@ -3,7 +3,12 @@ from sklearn.feature_extraction.text import TfidfTransformer
 from scipy.sparse import coo_matrix
 import re ##???? braucht man das oder kann das weg
 
+
+
 cv=CountVectorizer(max_df=0.8,stop_words=STOP_WORDS, max_features=10000) #, ngram_range=(1,3) kann probably weg????
+
+
+# vielleicht funktion zum corpus erstellen und dabei joinen, damit das beim pp nicht geändert werden muss
 
 corpus = []
 corpus.append(remove_stopwords(lemmatize(csv_to_string('41113_202109.csv')))) 

@@ -2,24 +2,25 @@ import spacy
 import csv
 from spacy.lang.de.stop_words import STOP_WORDS
 
-punctuation = [",", ".", "!", "?", "-", "_", ":", ";", "--", "-", "–"] 
-custom_stop_words = ["der", "die", "das", "grüne", "linke", "afd", "spd", "cdu", "csu", "fdp", "für", "über", "müssen", "inn", "inne", "vgl", "kapitel", "frei", "demokrat", "beziehungsweise", "anderer"]
+punctuation = [",", ".", "!", "?", "-", "_", ":", ";", "--", "-", "–", "%", "*"] 
+custom_stop_words = ["grüne", "linke", "afd", "spd", "cdu", "csu", "fdp", "für", "über", "müssen", "inn", "inne", "vgl.", "kapitel", "frei", "demokrat", "beziehungsweise", "anderer", "vieler", "insbesondere", "dafür"]
 STOP_WORDS.update(punctuation)
 STOP_WORDS.update(custom_stop_words)
 
-#######################################################################################################################
-# variant 1: saving the whole manifesto into one string
+# variant 1: Saving the whole manifesto text into one string.
 
 def csv_to_string(filename):
-    """ A function that reads a csv file and saves it in a string, excluding headers.
+    """ A function that reads a csv file and saves the text in a string, excluding headers and additional information (marked by "H" and "NA" in the second column).
 
     Parameters
     ----------
-    filename: name of the file in csv format
+    filename: str
+        Name of the csv file.
 
-    Return
-    ------
-    manifesto_as_str: string containing text chunks excluding headers ("H")
+    Returns
+    -------
+    manifesto_as_str : str
+        Manifesto text without headers and additional information.
     """
     with open(filename, newline='', encoding='utf8') as csv_file:
         reader = csv.reader(csv_file)
@@ -32,15 +33,17 @@ def csv_to_string(filename):
     return manifesto_as_str
 
 def lemmatize_str(manifesto_as_str):
-    """ A function that lemmatizes the tokens in a given file using spaCy's German model.
+    """ A function that lemmatizes each token in a string using spaCy's German model.
 
     Parameters
     ----------
-    manifesto_as_str: string obtained from csv file, excluding paragraphs
+    manifesto_as_str: str
+        Manifesto text without headers and additional information.
 
-    Return
-    ------
-    manifesto_lemmatized: string lemmatized into lowercase words
+    Returns
+    -------
+    manifesto_lemmatized: lst of str
+        Lowercase lemmatized tokens.
     """
     nlp = spacy.load("de_core_news_sm")
     manifesto_processed = nlp(manifesto_as_str)
@@ -56,11 +59,13 @@ def remove_stopwords_str(manifesto_lemmatized):
 
     Parameters
     ----------
-    manifesto_lemmatized: list with lowercase lemmas for each token
+    manifesto_lemmatized: lst of str
+        Lowercase lemmatized tokens.
 
-    Return
-    ------
-    manifesto_clean: list of lemmas excluding stop words
+    Returns
+    -------
+    manifesto_clean: lst of str
+        Lowercase lemmatized tokens excluding stop words and punctuation.
     """
     manifesto_clean = []
     for lemma in manifesto_lemmatized:
@@ -71,20 +76,21 @@ def remove_stopwords_str(manifesto_lemmatized):
 
     return manifesto_clean
 
-#######################################################################################################################
-# variant 2: saving the whole manifesto into a list of paragraphs in order to iterate over it
+# variant 2: Splitting the whole manifesto into a list of paragraphs in order to iterate over them.
 
 
 def csv_to_paragraphs(filename):
-    """ A function that reads a csv file, separates it into paragraphs and saves the longest paragraphs in a string.
+    """ A function that reads a csv file and saves the text in a list of paragraphs, excluding headers and additional information (marked by "H" and "NA" in the second column).
 
     Parameters
     ----------
-    filename: name of the csv-file
+    filename: str
+        Name of the csv file.
 
-    Return
-    ------
-    longest_paragraphs: a list of strings (text chunks separated by headers ("H")), representing the longest paragraphs
+    Returns
+    -------
+    long_paragraphs: lst of str
+        Manfesto text without headers and additional information, separated into paragraphs that are longer than 100 words.
     """
     with open(filename, newline='', encoding='utf8') as csv_file:
         reader = csv.reader(csv_file)
@@ -95,34 +101,35 @@ def csv_to_paragraphs(filename):
             if line[1] != "H":
                 current_paragraph = current_paragraph + " " + line[0]
             elif line[1] == "H":
-                manifesto_paragraphs.append(current_paragraph) #
+                manifesto_paragraphs.append(current_paragraph) 
                 current_paragraph = ""
 
-        longest_paragraphs = []
+        long_paragraphs = []
         for paragraph in manifesto_paragraphs:
             if len(paragraph) < 100:
                 continue
-            longest_paragraph = max(manifesto_paragraphs, key=len)
-            longest_paragraphs.append(longest_paragraph)
-            manifesto_paragraphs.remove(longest_paragraph)
-
+            #long_paragraph = max(manifesto_paragraphs, key=len)
+            long_paragraphs.append(paragraph)
+            #manifesto_paragraphs.remove(long_paragraph)
         
-    return  longest_paragraphs 
+    return  long_paragraphs 
 
-def lemmatize_par(longest_paragraphs):
-    """ A function that lemmatizes the tokens in a given file using spaCy's German model.
+def lemmatize_par(long_paragraphs):
+    """ A function that lemmatizes each token in a string using spaCy's German model.
 
     Parameters
     ----------
-    longest paragraphs: list of strings (10 longest paragraphs)
+    long_paragraphs: lst of str
+        Manfesto text without headers and additional information, separated into paragraphs that are longer than 100 words.
 
-    Return
-    ------
-    paragraphs_lemmatized: list of paragraphs consisting of lists of lowercase, lemmatized words
+    Returns
+    -------
+    paragraphs_lemmatized: lst of lsf of str 
+        Lowercase lemmatized tokens.
     """
     nlp = spacy.load("de_core_news_sm")
     paragraphs_lemmatized = []
-    for paragraph in longest_paragraphs:
+    for paragraph in long_paragraphs:
         paragraph_processed = nlp(paragraph)
         current_paragraph_lemmatized = []
         for token in paragraph_processed:
@@ -140,26 +147,25 @@ def remove_stopwords_par(paragraphs_lemmatized):
 
     Parameters
     ----------
-    paragraph_lemmatized: list of paragraphs consisting of lists of lowercase, lemmatized words
+    paragraphs_lemmatized: lst of lsf of str 
+        Lowercase lemmatized tokens.
 
-    Return
-    ------
-    manifesto_clean: list of paragraphs consisting of lists of lemmas excluding stop words
+    Returns
+    -------
+    paragraphs_clean: lst of lst of str
+        Lowercase lemmatized tokens excluding stop words and punctuation.
     """
-    manifesto_clean = []
+    paragraphs_clean = []
     for paragraph in paragraphs_lemmatized:
         current_paragraph_clean = []
         for lemma in paragraph:
             if lemma not in STOP_WORDS:
                 current_paragraph_clean.append(lemma)
 
-        manifesto_clean.append(current_paragraph_clean)
+        paragraphs_clean.append(current_paragraph_clean)
         current_paragraph_clean = []
 
-    return manifesto_clean
-
-
-#######################################################################################################################
+    return paragraphs_clean
 
 
 filenames = ['41113_202109.csv', '41223_202109.csv', '41320_202109.csv', '41420_202109.csv', '41521_202109.csv', '41953_202109.csv']

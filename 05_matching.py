@@ -10,6 +10,18 @@ import preprocessing as pp
 # 1: pattern matching
 
 def paragraphs_to_patterns(manifesto_as_str):
+    """
+    A function that extracts all occurrences of the defined pattern.
+
+    Parameters
+    ----------
+    manifesto_as_str: str
+        Manifesto text without headers and additional information.
+
+    Returns
+    -------
+    None
+    """
     nlp = spacy.load("de_core_news_sm")
     matcher = Matcher(nlp.vocab)
 
@@ -29,9 +41,9 @@ def paragraphs_to_patterns(manifesto_as_str):
     for match_id, start, end in matches:
         string_id = nlp.vocab.strings[match_id]  
         span = manifesto_processed[start:end] 
-        print(span.text) #type(match_id), string_id, 
+        print(span.text) #type(match_id), string_id, kann oben wahrscheinlich weg
 
-    return
+    return 
 
 paragraphs_to_patterns(pp.csv_to_string('41113_202109.csv'))
 
@@ -40,6 +52,18 @@ paragraphs_to_patterns(pp.csv_to_string('41113_202109.csv'))
 # 2: dependency matching
 
 def paragraphs_to_deps(manifesto_as_str):
+    """
+    A function that extracts all occurrences of the defined dependency relation.
+
+    Parameters
+    ----------
+    manifesto_as_str: str
+        Manifesto text without headers and additional information.
+
+    Returns
+    -------
+    None
+    """
     nlp = spacy.load("de_core_news_sm")
     matcher = DependencyMatcher(nlp.vocab)
 
