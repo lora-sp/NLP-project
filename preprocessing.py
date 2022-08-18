@@ -22,7 +22,7 @@ def csv_to_string(filename):
     manifesto_as_str : str
         Manifesto text without headers and additional information.
     """
-    with open(filename, newline='', encoding='utf8') as csv_file:
+    with open("manifestos/" + filename, newline='', encoding='utf8') as csv_file:
         reader = csv.reader(csv_file)
         manifesto_as_str = ""
         next(reader)
@@ -31,6 +31,7 @@ def csv_to_string(filename):
                 manifesto_as_str = manifesto_as_str + " " + line[0]
 
     return manifesto_as_str
+
 
 def lemmatize_str(manifesto_as_str):
     """ A function that lemmatizes each token in a string using spaCy's German model.
@@ -90,9 +91,9 @@ def csv_to_paragraphs(filename):
     Returns
     -------
     long_paragraphs: lst of str
-        Manfesto text without headers and additional information, separated into paragraphs that are longer than 100 words.
+        Manifesto text without headers and additional information, separated into paragraphs that are longer than 100 words.
     """
-    with open(filename, newline='', encoding='utf8') as csv_file:
+    with open("manifestos/" + filename, newline='', encoding='utf8') as csv_file:
         reader = csv.reader(csv_file)
         current_paragraph = ""
         manifesto_paragraphs = []
@@ -120,7 +121,7 @@ def lemmatize_par(long_paragraphs):
     Parameters
     ----------
     long_paragraphs: lst of str
-        Manfesto text without headers and additional information, separated into paragraphs that are longer than 100 words.
+        Manifesto text without headers and additional information, separated into paragraphs that are longer than 100 words.
 
     Returns
     -------
@@ -168,4 +169,4 @@ def remove_stopwords_par(paragraphs_lemmatized):
     return paragraphs_clean
 
 
-filenames = ['41113_202109.csv', '41223_202109.csv', '41320_202109.csv', '41420_202109.csv', '41521_202109.csv', '41953_202109.csv']
+filenames = ['grüne_manifesto.csv', 'linke_manifesto.csv', 'spd_manifesto.csv', 'fdp_manifesto.csv', 'cdu_manifesto.csv', 'afd_manifesto.csv']

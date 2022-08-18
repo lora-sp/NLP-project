@@ -1,0 +1,86 @@
+{
+   "grüne": [
+      [
+         "mensch",
+         259
+      ],
+      [
+         "europäisch",
+         203
+      ],
+      [
+         "stärken",
+         187
+      ]
+   ],
+   "linke": [
+      [
+         "mensch",
+         316
+      ],
+      [
+         "sozial",
+         257
+      ],
+      [
+         "öffentlich",
+         235
+      ]
+   ],
+   "spd": [
+      [
+         "neu",
+         82
+      ],
+      [
+         "europäisch",
+         68
+      ],
+      [
+         "unterstützen",
+         63
+      ]
+   ],
+   "fdp": [
+      [
+         "deutschland",
+         112
+      ],
+      [
+         "europäisch",
+         112
+      ],
+      [
+         "fordern",
+         109
+      ]
+   ],
+   "cdu": [
+      [
+         "deutschland",
+         163
+      ],
+      [
+         "europäisch",
+         160
+      ],
+      [
+         "neu",
+         156
+      ]
+   ],
+   "afd": [
+      [
+         "deutschland",
+         110
+      ],
+      [
+         "deutsch",
+         105
+      ],
+      [
+         "fordern",
+         75
+      ]
+   ]
+}

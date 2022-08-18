@@ -33,18 +33,28 @@ def manifesto_to_ne(manifesto_lemmatized):
 
     return most_common_nes
 
-def named_entity_recognition(filename):
+def named_entity_recognition():
     """ A function that stores the 10 most common named entities occurring in the document and their frequency in a json file.
 
     Parameters
     ----------
-    filename: str
-        Name of the csv file.
+    None
 
     Returns
     -------
     None
     """ 
-    return (paragraphs_to_ne((pp.lemmatize_str(pp.csv_to_string(filename)))))
 
-print(named_entity_pipeline('41113_202109.csv'))
+    results = {}
+    for filename in pp.filenames:
+        manifesto_as_str = pp.csv_to_string(filename)
+        manifesto_lemmatized = pp.lemmatize_str(manifesto_as_str)
+        manifesto_nes = manifesto_to_ne(manifesto_lemmatized)
+        results[filename[:-14]] = manifesto_nes
+
+    with open('results/Named_Entity_Recognition.json', 'w', encoding='utf-8') as f:
+        json.dump(results, f, ensure_ascii=False, indent=3)
+
+    return 
+
+named_entity_recognition()

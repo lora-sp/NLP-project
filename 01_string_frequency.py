@@ -1,6 +1,9 @@
 import preprocessing as pp
 from collections import Counter
 import json
+import evaluation_data_extraction as ev
+import random
+
 
 #???? kritik: verben sind dabei
 
@@ -21,27 +24,34 @@ def most_frequent(manifesto_clean):
         50 most common words occurring in the document and their frequency.
     """   
     c = Counter(manifesto_clean)
-    return c.most_common(50)
+    return c.most_common(3)
 
+random.seed(3)
+print(ev.eval_files)
 
-def string_frequency(filename):
+def string_frequency():
     """ A function that stores the 50 most common words occurring in the document and their frequency in a json file.
 
     Parameters
     ----------
-    filename: str
-        Name of the csv file.
+    None
 
     Returns
     -------
     None
     """ 
-    with open(''+ filename[:-4] +'.json', 'w', encoding='utf-8') as f:
-        #f.write("01: string frequency")
-        json.dump({"01: string freqency": most_frequent(pp.remove_stopwords_str(pp.lemmatize_str(pp.csv_to_string(filename))))(filename)}, f, ensure_ascii=False)
+    results = {}
+    for filename in pp.filenames:
+        manifesto_as_str = pp.csv_to_string(filename)
+        manifesto_lemmatized = pp.lemmatize_str(manifesto_as_str)
+        manifesto_clean = pp.remove_stopwords_str(manifesto_lemmatized)
+        manifesto_most_frequent = most_frequent(manifesto_clean)
+        results[filename[:-14]] = manifesto_most_frequent
+
+    with open('results/String_Frequency.json', 'w', encoding='utf-8') as f:
+        json.dump(results, f, ensure_ascii=False, indent=3)
     
     return 
 
 
-for filename in pp.filenames: 
-    string_frequency(filename)
+string_frequency()

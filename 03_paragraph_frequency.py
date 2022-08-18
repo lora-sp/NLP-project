@@ -27,22 +27,31 @@ def most_frequent(paragraphs_clean):
 
     return most_common
 
-def paragraph_frequency(filename):
+def paragraph_frequency():
     """ A function that stores the most common word per paragraph and its frequency in a json file.
 
     Parameters
     ----------
-    filename: str
-        Name of the csv file.
+    None
 
     Returns
     -------
     None
     """ 
-    return most_frequent(pp.remove_stopwords_par(pp.lemmatize_par(pp.csv_to_paragraphs(filename))))
 
-filenames = ['41113_202109.csv', '41223_202109.csv', '41320_202109.csv', '41420_202109.csv', '41521_202109.csv', '41953_202109.csv']
-for filename in pp.filenames:
-    print(paragraph_pipeline(filename))
+    results = {}
+    for filename in pp.filenames:
+        long_paragraphs = pp.csv_to_paragraphs(filename)
+        paragraphs_lemmatized = pp.lemmatize_par(long_paragraphs)
+        paragraphs_clean = pp.remove_stopwords_par(paragraphs_lemmatized)
+        paragraphs_most_frequent = most_frequent(paragraphs_clean)
+        results[filename[:-14]] = paragraphs_most_frequent
 
-print(paragraph_pipeline('41113_202109.csv'))
+    with open('results/Paragraph_Frequency.json', 'w', encoding='utf-8') as f:
+        json.dump(results, f, ensure_ascii=False, indent=3)
+
+    return
+
+
+paragraph_frequency()
+
