@@ -2,9 +2,8 @@ import spacy
 from collections import Counter
 import preprocessing as pp
 
-#?????? hier vielleicht doch noch stopwords drinlassen, idk, ja doch weil dann ist es wie bei string frequency aber ohne verben halt ne
-
 # Works with preprocessing variant 1 (manifesto as one continuous string)
+
 
 def manifesto_to_ne(manifesto_lemmatized):
     """ A function that takes lemmatized strings and extracts the 10 most frequent named entites.
@@ -33,8 +32,9 @@ def manifesto_to_ne(manifesto_lemmatized):
 
     return most_common_nes
 
+
 def named_entity_recognition():
-    """ A function that stores the 10 most common named entities occurring in the document and their frequency in a json file.
+    """ A function that stores the 10 most common named entities occurring in the manifestos and their frequency in a json file.
 
     Parameters
     ----------
@@ -56,5 +56,6 @@ def named_entity_recognition():
         json.dump(results, f, ensure_ascii=False, indent=3)
 
     return 
+
 
 named_entity_recognition()

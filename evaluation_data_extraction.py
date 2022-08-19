@@ -11,5 +11,3 @@ for filename in pp.filenames:
         json.dump(eval, f, ensure_ascii=False, indent=3)
 
 print(eval_files)
-
-

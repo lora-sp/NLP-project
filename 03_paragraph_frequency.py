@@ -27,8 +27,9 @@ def most_frequent(paragraphs_clean):
 
     return most_common
 
+
 def paragraph_frequency():
-    """ A function that stores the most common word per paragraph and its frequency in a json file.
+    """ A function that stores the most common word per paragraph in the manifestos and its frequency in a json file.
 
     Parameters
     ----------

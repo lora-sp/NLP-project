@@ -2,12 +2,13 @@ import spacy
 import csv
 from spacy.lang.de.stop_words import STOP_WORDS
 
-punctuation = [",", ".", "!", "?", "-", "_", ":", ";", "--", "-", "–", "%", "*"] 
+punctuation = [",", ".", "!", "?", "-", "_", ":", ";", "--", "-", "–", "%", "*"]
 custom_stop_words = ["grüne", "linke", "afd", "spd", "cdu", "csu", "fdp", "für", "über", "müssen", "inn", "inne", "vgl.", "kapitel", "frei", "demokrat", "beziehungsweise", "anderer", "vieler", "insbesondere", "dafür"]
 STOP_WORDS.update(punctuation)
 STOP_WORDS.update(custom_stop_words)
 
 # variant 1: Saving the whole manifesto text into one string.
+
 
 def csv_to_string(filename):
     """ A function that reads a csv file and saves the text in a string, excluding headers and additional information (marked by "H" and "NA" in the second column).
@@ -26,7 +27,7 @@ def csv_to_string(filename):
         reader = csv.reader(csv_file)
         manifesto_as_str = ""
         next(reader)
-        for line in reader: 
+        for line in reader:
             if line[1] != "H" and line[1] != "NA":
                 manifesto_as_str = manifesto_as_str + " " + line[0]
 
@@ -71,13 +72,13 @@ def remove_stopwords_str(manifesto_lemmatized):
     manifesto_clean = []
     for lemma in manifesto_lemmatized:
         if lemma not in STOP_WORDS:
-            manifesto_clean.append(lemma) 
-
-    #manifesto_clean = ' '.join(manifesto_clean) #needed for tf-idf
+            manifesto_clean.append(lemma)
 
     return manifesto_clean
 
-# variant 2: Splitting the whole manifesto into a list of paragraphs in order to iterate over them.
+
+# variant 2: Splitting the whole manifesto into a list of paragraphs in
+# order to iterate over them.
 
 
 def csv_to_paragraphs(filename):
@@ -98,22 +99,25 @@ def csv_to_paragraphs(filename):
         current_paragraph = ""
         manifesto_paragraphs = []
         next(reader)
-        for line in reader: 
-            if line[1] != "H":
+        for line in reader:
+            if line[1] != "H" and line[1] != "NA":
                 current_paragraph = current_paragraph + " " + line[0]
-            elif line[1] == "H":
-                manifesto_paragraphs.append(current_paragraph) 
+            elif line[1] == "H" or line[1] == "NA":
+                manifesto_paragraphs.append(current_paragraph)
                 current_paragraph = ""
 
         long_paragraphs = []
         for paragraph in manifesto_paragraphs:
-            if len(paragraph) < 100:
+            counter = 0
+            for i in range(len(paragraph)):
+                if paragraph[i] == " ":
+                    counter += 1
+            if counter < 100:
                 continue
-            #long_paragraph = max(manifesto_paragraphs, key=len)
             long_paragraphs.append(paragraph)
-            #manifesto_paragraphs.remove(long_paragraph)
-        
-    return  long_paragraphs 
+
+    return long_paragraphs
+
 
 def lemmatize_par(long_paragraphs):
     """ A function that lemmatizes each token in a string using spaCy's German model.
@@ -125,7 +129,7 @@ def lemmatize_par(long_paragraphs):
 
     Returns
     -------
-    paragraphs_lemmatized: lst of lsf of str 
+    paragraphs_lemmatized: lst of lsf of str
         Lowercase lemmatized tokens.
     """
     nlp = spacy.load("de_core_news_sm")
@@ -148,7 +152,7 @@ def remove_stopwords_par(paragraphs_lemmatized):
 
     Parameters
     ----------
-    paragraphs_lemmatized: lst of lsf of str 
+    paragraphs_lemmatized: lst of lsf of str
         Lowercase lemmatized tokens.
 
     Returns

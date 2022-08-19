@@ -10,6 +10,7 @@ import random
 # Pure Frequency Approach, using only the list of stop words to eliminate frequent words
 # Works with preprocessing variant 1 (the whole manifesto saved in a string)
 
+
 def most_frequent(manifesto_clean):
     """ A function that counts the occurrences of each word and prints the 50 most frequent words.
 
@@ -26,11 +27,9 @@ def most_frequent(manifesto_clean):
     c = Counter(manifesto_clean)
     return c.most_common(3)
 
-random.seed(3)
-print(ev.eval_files)
 
 def string_frequency():
-    """ A function that stores the 50 most common words occurring in the document and their frequency in a json file.
+    """ A function that stores the 50 most common words occurring in the manifestos and their frequency in a json file.
 
     Parameters
     ----------

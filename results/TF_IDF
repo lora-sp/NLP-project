@@ -1,0 +1,74 @@
+{
+   "grüne": {
+      "klimakrise": 0.152,
+      "klimaneutral": 0.129,
+      "überall": 0.125,
+      "geflüchtet": 0.12,
+      "grün": 0.105,
+      "klimagerecht": 0.093,
+      "studierend": 0.091,
+      "süden": 0.086,
+      "zivil": 0.081,
+      "wohnen": 0.081
+   },
+   "linke": {
+      "sozialökologisch": 0.178,
+      "coronakrise": 0.149,
+      "gewerkschaft": 0.147,
+      "profit": 0.133,
+      "stoppen": 0.122,
+      "un": 0.115,
+      "kämpfen": 0.108,
+      "klimaneutral": 0.096,
+      "gemeinnützig": 0.096,
+      "geflüchtet": 0.093
+   },
+   "spd": {
+      "klimaneutral": 0.137,
+      "gewerkschaft": 0.117,
+      "zukunftsmission": 0.105,
+      "kinder": 0.104,
+      "bürgergeld": 0.104,
+      "gesundheitswirtschaft": 0.084,
+      "start": 0.075,
+      "jugendhilfe": 0.075,
+      "geltung": 0.073,
+      "selbständige": 0.069
+   },
+   "fdp": {
+      "bürgerin": 0.28,
+      "bürokratie": 0.133,
+      "coronakrise": 0.115,
+      "liberal": 0.106,
+      "start": 0.099,
+      "kraftstoff": 0.099,
+      "potential": 0.091,
+      "marktwirtschaft": 0.091,
+      "lsbti": 0.089,
+      "schülerin": 0.084
+   },
+   "cdu": {
+      "modernisierungsjahrzehnt": 0.224,
+      "bürgerin": 0.203,
+      "startups": 0.106,
+      "bevölkerungsschutz": 0.097,
+      "verbraucherinn": 0.087,
+      "marktwirtschaft": 0.077,
+      "kriminell": 0.077,
+      "cyber": 0.077,
+      "grenzüberschreitend": 0.074,
+      "unions": 0.071
+   },
+   "afd": {
+      "bu": 0.412,
+      "fu": 0.348,
+      "hren": 0.334,
+      "rger": 0.213,
+      "ru": 0.178,
+      "unterstu": 0.171,
+      "hrung": 0.156,
+      "zuru": 0.142,
+      "ku": 0.135,
+      "hrt": 0.128
+   }
+}
