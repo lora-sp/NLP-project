@@ -2,6 +2,8 @@ import spacy
 from spacy.matcher import Matcher
 from spacy.matcher import DependencyMatcher
 import preprocessing as pp
+from evaluation_data_extraction import eval_files
+
 
 # Pattern matching and dependency matching
 
@@ -46,6 +48,11 @@ def string_to_patterns(manifesto_as_str):
         matches_lst.append(span.text) #type(match_id), string_id, kann oben wahrscheinlich weg
 
     return matches_lst
+
+
+for file in eval_files:
+    file = ' '.join(file)
+    print(string_to_patterns(file))
 
 
 def pattern_matching():

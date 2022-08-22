@@ -1,5 +1,6 @@
 from collections import Counter
 import preprocessing as pp
+from evaluation_data_extraction import eval_files
 
 # Paragraph approach, using the list of stop words but also considering a minimal length for paragraphs
 # Possibility to obtain a representative overview of the most common words per paragraph instead of considering the whole string
@@ -16,7 +17,7 @@ def most_frequent(paragraphs_clean):
 
     Returns
     -------
-    most_common: lst of lsf of tuples
+    most_common: lst of lst of tuples
         50 most common words occurring in the document and their frequency.
     """   
     most_common = []
@@ -27,6 +28,8 @@ def most_frequent(paragraphs_clean):
 
     return most_common
 
+for file in eval_files:
+    print(most_frequent(pp.remove_stopwords_par(pp.lemmatize_par(file))))
 
 def paragraph_frequency():
     """ A function that stores the most common word per paragraph in the manifestos and its frequency in a json file.

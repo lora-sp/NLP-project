@@ -1,6 +1,8 @@
 import spacy
 from collections import Counter
 import preprocessing as pp
+from evaluation_data_extraction import eval_files
+
 
 # Works with preprocessing variant 1 (manifesto as one continuous string)
 
@@ -28,9 +30,14 @@ def manifesto_to_ne(manifesto_lemmatized):
 
     most_common_nes = []
     c = Counter(nes)
-    most_common_nes.append(c.most_common(10))
+    most_common_nes.append(c.most_common(1))
 
     return most_common_nes
+
+
+for file in eval_files:
+    file = ' '.join(file)
+    print(manifesto_to_ne(pp.lemmatize_str(file)))
 
 
 def named_entity_recognition():

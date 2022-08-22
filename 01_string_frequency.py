@@ -1,8 +1,7 @@
 import preprocessing as pp
 from collections import Counter
 import json
-import evaluation_data_extraction as ev
-import random
+from evaluation_data_extraction import eval_files
 
 
 #???? kritik: verben sind dabei
@@ -25,8 +24,14 @@ def most_frequent(manifesto_clean):
         50 most common words occurring in the document and their frequency.
     """   
     c = Counter(manifesto_clean)
-    return c.most_common(3)
+    most_common = c.most_common(3)
+    return most_common
 
+
+for file in eval_files:
+    file = ' '.join(file)
+    print(most_frequent(pp.remove_stopwords_str(pp.lemmatize_str(file))))
+# länge der abschnitte sorgt dafür dass manche untergehen andere überrepräsentiert sind
 
 def string_frequency():
     """ A function that stores the 50 most common words occurring in the manifestos and their frequency in a json file.
