@@ -2,9 +2,12 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
 from scipy.sparse import coo_matrix
 import preprocessing as pp
-import re ##???? braucht man das oder kann das weg
+#import re ##???? braucht man das oder kann das weg
 import json
 from evaluation_data_extraction import eval_files
+
+
+# Works with preprocessing variant 1 (the whole manifesto saved into a continuous string)
 
 
 def sort_coo(coo_matrix):
@@ -25,8 +28,8 @@ def sort_coo(coo_matrix):
     return coo_sorted
  
 
-def extract_topn_from_vector(feature_names, sorted_items, topn=10):
-    """ A function that extracts the top 10 keywords and their tf-idf scores.
+def extract_topn_from_vector(feature_names, sorted_items, topn=20):
+    """ A function that extracts the top 20 keywords and their tf-idf scores.
 
     Parameters
     ----------
@@ -39,7 +42,7 @@ def extract_topn_from_vector(feature_names, sorted_items, topn=10):
     Returns
     -------
     results: dict
-        Top 10 keywords and their tf-idf scores.
+        Top 20 keywords and their tf-idf scores.
     """
     
     sorted_items = sorted_items[:topn]
@@ -57,8 +60,9 @@ def extract_topn_from_vector(feature_names, sorted_items, topn=10):
     
     return results
 
+
 def tf_idf_eval():
-    """ A function that extracts the top 10 keywords per evaluation file and their tf-idf scores and stores them in a json file.
+    """ A function that extracts the top 20 keywords per evaluation file and their tf-idf scores and stores them in a json file.
 
     Parameters
     ----------
@@ -93,14 +97,16 @@ def tf_idf_eval():
         # with open("results/TF_IDF.json", 'w', encoding='utf-8') as f:
         #     json.dump(results, f, ensure_ascii=False, indent=3)
 
-    print(results) # nicht soo gut weil eher "seltene" wörter hervorgehoben werden und manche parteien über dieselben themen sprechen
+    print(results) 
 
     return
 
+
 tf_idf_eval()
 
+
 def tf_idf():
-    """ A function that extracts the top 10 keywords per manifesto and their tf-idf scores and stores them in a json file.
+    """ A function that extracts the top 20 keywords per manifesto and their tf-idf scores and stores them in a json file.
 
     Parameters
     ----------
@@ -129,7 +135,7 @@ def tf_idf():
         doc = corpus[i]
         tf_idf_vector = tfidf_transformer.transform(cv.transform([doc]))
         sorted_items = sort_coo(tf_idf_vector.tocoo())
-        keywords = extract_topn_from_vector(feature_names, sorted_items, 10)
+        keywords = extract_topn_from_vector(feature_names, sorted_items, 20)
         results[pp.filenames[i][:-14]] = keywords 
         with open("results/TF_IDF.json", 'w', encoding='utf-8') as f:
             json.dump(results, f, ensure_ascii=False, indent=3)

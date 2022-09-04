@@ -9,7 +9,17 @@
       "studierend": 0.091,
       "süden": 0.086,
       "zivil": 0.081,
-      "wohnen": 0.081
+      "wohnen": 0.081,
+      "selbständig": 0.079,
+      "lsbtiq": 0.079,
+      "emissionsfrei": 0.079,
+      "vn": 0.077,
+      "ambitioniert": 0.077,
+      "sodass": 0.072,
+      "fossil": 0.067,
+      "sexualisiert": 0.062,
+      "relevant": 0.062,
+      "jüdisch": 0.062
    },
    "linke": {
       "sozialökologisch": 0.178,
@@ -21,7 +31,17 @@
       "kämpfen": 0.108,
       "klimaneutral": 0.096,
       "gemeinnützig": 0.096,
-      "geflüchtet": 0.093
+      "geflüchtet": 0.093,
+      "klimagerecht": 0.092,
+      "privatisierung": 0.089,
+      "sofort": 0.087,
+      "ungleichheit": 0.082,
+      "überall": 0.082,
+      "süden": 0.078,
+      "profitinteress": 0.075,
+      "ostdeutschland": 0.074,
+      "coronapandemie": 0.072,
+      "zivil": 0.071
    },
    "spd": {
       "klimaneutral": 0.137,
@@ -33,7 +53,17 @@
       "start": 0.075,
       "jugendhilfe": 0.075,
       "geltung": 0.073,
-      "selbständige": 0.069
+      "selbständige": 0.069,
+      "selbständig": 0.069,
+      "mindestbesteuerung": 0.069,
+      "lsbtiq": 0.069,
+      "2045": 0.069,
+      "sicherungsgeld": 0.063,
+      "elektroauto": 0.063,
+      "bildungszeit": 0.063,
+      "süden": 0.062,
+      "lebensverhältnis": 0.062,
+      "gemeinwohlorientiert": 0.062
    },
    "fdp": {
       "bürgerin": 0.28,
@@ -45,7 +75,17 @@
       "potential": 0.091,
       "marktwirtschaft": 0.091,
       "lsbti": 0.089,
-      "schülerin": 0.084
+      "schülerin": 0.084,
+      "ups": 0.083,
+      "personenbezogen": 0.08,
+      "demographisch": 0.073,
+      "taiwan": 0.071,
+      "beamtinn": 0.064,
+      "erasmus": 0.063,
+      "extremismus": 0.062,
+      "eigenverantwortung": 0.062,
+      "wahlfreiheit": 0.061,
+      "zertifikat": 0.053
    },
    "cdu": {
       "modernisierungsjahrzehnt": 0.224,
@@ -57,7 +97,17 @@
       "kriminell": 0.077,
       "cyber": 0.077,
       "grenzüberschreitend": 0.074,
-      "unions": 0.071
+      "unions": 0.071,
+      "genehmigungsverfahren": 0.071,
+      "ehrenamt": 0.07,
+      "zuwanderung": 0.068,
+      "rasch": 0.068,
+      "solide": 0.065,
+      "bürokratie": 0.065,
+      "potenzial": 0.063,
+      "missbrauch": 0.063,
+      "intensivieren": 0.063,
+      "verbraucherin": 0.059
    },
    "afd": {
       "bu": 0.412,
@@ -69,6 +119,16 @@
       "hrung": 0.156,
       "zuru": 0.142,
       "ku": 0.135,
-      "hrt": 0.128
+      "hrt": 0.128,
+      "dafu": 0.128,
+      "einfu": 0.107,
+      "ber": 0.107,
+      "schu": 0.1,
+      "wu": 0.092,
+      "tzen": 0.085,
+      "gru": 0.085,
+      "ezb": 0.084,
+      "verfu": 0.078,
+      "rfen": 0.078
    }
 }

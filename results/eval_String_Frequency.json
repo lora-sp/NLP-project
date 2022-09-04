@@ -1,0 +1,86 @@
+{
+   "grüne": [
+      [
+         "europäisch",
+         5
+      ],
+      [
+         "mitgliedstaat",
+         4
+      ],
+      [
+         "digital",
+         3
+      ]
+   ],
+   "linke": [
+      [
+         "sozial",
+         7
+      ],
+      [
+         "mensch",
+         6
+      ],
+      [
+         "unternehmen",
+         3
+      ]
+   ],
+   "spd": [
+      [
+         "global",
+         19
+      ],
+      [
+         "international",
+         13
+      ],
+      [
+         "menschenrecht",
+         9
+      ]
+   ],
+   "fdp": [
+      [
+         "cybersicherheit",
+         4
+      ],
+      [
+         "stärken",
+         3
+      ],
+      [
+         "\n    ",
+         2
+      ]
+   ],
+   "cdu": [
+      [
+         "welt",
+         3
+      ],
+      [
+         "schifffahrt",
+         3
+      ],
+      [
+         "deutschland",
+         3
+      ]
+   ],
+   "afd": [
+      [
+         "europa",
+         3
+      ],
+      [
+         "deutschland",
+         3
+      ],
+      [
+         "global",
+         3
+      ]
+   ]
+}

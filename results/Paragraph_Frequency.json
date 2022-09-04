@@ -1,15 +1,9 @@
 {
-   "grüne_manifesto": [
-      [
-         [
-            "bündnis",
-            2
-         ]
-      ],
+   "grüne": [
       [
          [
             "gesellschaft",
-            8
+            6
          ]
       ],
       [
@@ -20,14 +14,8 @@
       ],
       [
          [
-            "gesund",
-            3
-         ]
-      ],
-      [
-         [
-            "gw",
-            5
+            "strom",
+            4
          ]
       ],
       [
@@ -50,12 +38,6 @@
       ],
       [
          [
-            "neu",
-            5
-         ]
-      ],
-      [
-         [
             "transformation",
             4
          ]
@@ -68,56 +50,38 @@
       ],
       [
          [
-            "weltklimarat",
+            "energie",
             2
          ]
       ],
       [
          [
-            "sozial",
-            4
-         ]
-      ],
-      [
-         [
-            "energiegeld",
+            "co2-preis",
             3
          ]
       ],
       [
          [
-            "klimaschutz",
+            "mensch",
             2
          ]
       ],
       [
          [
-            "setzen",
+            "kohleausstieg",
             2
          ]
       ],
       [
          [
-            "dach",
+            "strom",
             2
          ]
       ],
       [
          [
-            "fläche",
-            3
-         ]
-      ],
-      [
-         [
-            "stärken",
+            "anwohner*inn",
             2
-         ]
-      ],
-      [
-         [
-            "profitieren",
-            3
          ]
       ],
       [
@@ -129,12 +93,12 @@
       [
          [
             "wasserstoff",
-            9
+            6
          ]
       ],
       [
          [
-            "eeg",
+            "wind",
             2
          ]
       ],
@@ -176,26 +140,26 @@
       ],
       [
          [
-            "öpnv",
-            3
+            "mobilität",
+            2
          ]
       ],
       [
          [
-            "schaffen",
-            3
+            "dorf",
+            2
          ]
       ],
       [
          [
-            "fahren",
+            "verkehr",
             2
          ]
       ],
       [
          [
             "mensch",
-            4
+            3
          ]
       ],
       [
@@ -212,8 +176,8 @@
       ],
       [
          [
-            "auto",
-            4
+            "raum",
+            3
          ]
       ],
       [
@@ -230,26 +194,26 @@
       ],
       [
          [
-            "güterverkehr",
-            4
-         ]
-      ],
-      [
-         [
-            "setzen",
+            "straße",
             3
          ]
       ],
       [
          [
-            "leben",
+            "land",
+            2
+         ]
+      ],
+      [
+         [
+            "naturschutz",
             3
          ]
       ],
       [
          [
-            "wald",
-            4
+            "natur",
+            2
          ]
       ],
       [
@@ -272,8 +236,8 @@
       ],
       [
          [
-            "meer",
-            3
+            "ausstieg",
+            2
          ]
       ],
       [
@@ -308,14 +272,14 @@
       ],
       [
          [
-            "gemeinsam",
+            "landwirtschaft",
             3
          ]
       ],
       [
          [
             "pestizid",
-            7
+            3
          ]
       ],
       [
@@ -332,13 +296,13 @@
       ],
       [
          [
-            "regional",
-            5
+            "lebensmittel",
+            2
          ]
       ],
       [
          [
-            "ökologisch",
+            "lebensmittel",
             4
          ]
       ],
@@ -351,7 +315,7 @@
       [
          [
             "tier",
-            5
+            4
          ]
       ],
       [
@@ -386,7 +350,7 @@
       ],
       [
          [
-            "unternehmen",
+            "investition",
             3
          ]
       ],
@@ -404,31 +368,25 @@
       ],
       [
          [
-            "emissionsfrei",
+            "arbeitsplatz",
             3
          ]
       ],
       [
          [
-            "europäisch",
-            3
-         ]
-      ],
-      [
-         [
-            "geben",
+            "halbleitertechnologie",
             2
          ]
       ],
       [
          [
-            "rohstoff",
+            "kreislaufwirtschaft",
             3
          ]
       ],
       [
          [
-            "neu",
+            "entwicklung",
             2
          ]
       ],
@@ -452,12 +410,6 @@
       ],
       [
          [
-            "stadt",
-            2
-         ]
-      ],
-      [
-         [
             "wettbewerb",
             3
          ]
@@ -476,38 +428,32 @@
       ],
       [
          [
-            "nachhaltig",
+            "tourismus",
             4
          ]
       ],
       [
          [
-            "wohlstand",
+            "erfolg",
             2
          ]
       ],
       [
          [
-            "europäisch",
-            3
-         ]
-      ],
-      [
-         [
-            "europäisch",
-            3
-         ]
-      ],
-      [
-         [
-            "sozial-ökologisch",
-            3
+            "umsetzung",
+            2
          ]
       ],
       [
          [
             "unternehmen",
-            4
+            2
+         ]
+      ],
+      [
+         [
+            "wirtschaft",
+            2
          ]
       ],
       [
@@ -518,20 +464,20 @@
       ],
       [
          [
-            "europäisch",
+            "entwicklung",
+            2
+         ]
+      ],
+      [
+         [
+            "unternehmen",
             3
          ]
       ],
       [
          [
-            "start-ups",
-            3
-         ]
-      ],
-      [
-         [
-            "digital",
-            3
+            "unternehmen",
+            2
          ]
       ],
       [
@@ -542,32 +488,26 @@
       ],
       [
          [
-            "algorithmisch",
-            3
+            "system",
+            2
          ]
       ],
       [
          [
-            "digital",
-            7
-         ]
-      ],
-      [
-         [
-            "umwelt",
+            "infrastruktur",
             5
          ]
       ],
       [
          [
-            "eu",
+            "handel",
             3
          ]
       ],
       [
          [
-            "global",
-            4
+            "land",
+            3
          ]
       ],
       [
@@ -578,8 +518,8 @@
       ],
       [
          [
-            "grün",
-            4
+            "menschenrecht",
+            2
          ]
       ],
       [
@@ -590,44 +530,38 @@
       ],
       [
          [
-            "wirecard",
+            "bafin",
             3
          ]
       ],
       [
          [
             "bank",
-            5
-         ]
-      ],
-      [
-         [
-            "geldwäsche",
             4
-         ]
-      ],
-      [
-         [
-            "digital",
-            3
-         ]
-      ],
-      [
-         [
-            "europäisch",
-            4
-         ]
-      ],
-      [
-         [
-            "europäisch",
-            5
          ]
       ],
       [
          [
             "euro",
-            5
+            2
+         ]
+      ],
+      [
+         [
+            "digitalisierung",
+            2
+         ]
+      ],
+      [
+         [
+            "fiskalpolitik",
+            3
+         ]
+      ],
+      [
+         [
+            "euro",
+            4
          ]
       ],
       [
@@ -662,7 +596,7 @@
       ],
       [
          [
-            "europa",
+            "mindeststeuersatz",
             3
          ]
       ],
@@ -692,8 +626,8 @@
       ],
       [
          [
-            "jugendliche",
-            3
+            "kinder",
+            2
          ]
       ],
       [
@@ -705,13 +639,13 @@
       [
          [
             "kind",
-            4
+            3
          ]
       ],
       [
          [
             "kind",
-            7
+            6
          ]
       ],
       [
@@ -734,13 +668,13 @@
       ],
       [
          [
-            "schaffen",
-            3
+            "mensch",
+            2
          ]
       ],
       [
          [
-            "gelten",
+            "unternehmen",
             5
          ]
       ],
@@ -758,20 +692,14 @@
       ],
       [
          [
-            "mensch",
+            "anspruch",
             3
          ]
       ],
       [
          [
-            "digital",
+            "arbeit",
             3
-         ]
-      ],
-      [
-         [
-            "europäisch",
-            4
          ]
       ],
       [
@@ -782,7 +710,7 @@
       ],
       [
          [
-            "übernehmen",
+            "familie",
             3
          ]
       ],
@@ -794,26 +722,26 @@
       ],
       [
          [
-            "sozial",
+            "garantiesicherung",
             4
          ]
       ],
       [
          [
-            "mensch",
-            6
-         ]
-      ],
-      [
-         [
-            "europäisch",
-            8
-         ]
-      ],
-      [
-         [
-            "rente",
+            "behinderung",
             5
+         ]
+      ],
+      [
+         [
+            "arbeit",
+            2
+         ]
+      ],
+      [
+         [
+            "rentenniveau",
+            2
          ]
       ],
       [
@@ -824,20 +752,20 @@
       ],
       [
          [
-            "zugang",
+            "gesundheitsversorgung",
             2
          ]
       ],
       [
          [
-            "europäisch",
-            4
+            "medikament",
+            3
          ]
       ],
       [
          [
-            "öffentlich",
-            6
+            "gesundheitsdienst",
+            5
          ]
       ],
       [
@@ -866,26 +794,26 @@
       ],
       [
          [
-            "medizinisch",
+            "forschung",
             3
          ]
       ],
       [
          [
             "mensch",
-            4
-         ]
-      ],
-      [
-         [
-            "gesetzlich",
-            4
-         ]
-      ],
-      [
-         [
-            "gesundheitswesen",
             3
+         ]
+      ],
+      [
+         [
+            "beitrag",
+            3
+         ]
+      ],
+      [
+         [
+            "patient*inn",
+            2
          ]
       ],
       [
@@ -896,7 +824,13 @@
       ],
       [
          [
-            "gesundheitswesen",
+            "mensch",
+            2
+         ]
+      ],
+      [
+         [
+            "angebot",
             3
          ]
       ],
@@ -908,19 +842,7 @@
       ],
       [
          [
-            "mensch",
-            2
-         ]
-      ],
-      [
-         [
-            "brauchen",
-            4
-         ]
-      ],
-      [
-         [
-            "sterben",
+            "entscheidung",
             2
          ]
       ],
@@ -938,13 +860,7 @@
       ],
       [
          [
-            "mieter*inn",
-            2
-         ]
-      ],
-      [
-         [
-            "neu",
+            "kommune",
             3
          ]
       ],
@@ -956,26 +872,26 @@
       ],
       [
          [
-            "immobilie",
+            "eigentümer*inn",
             2
          ]
       ],
       [
          [
-            "fläche",
+            "grund",
+            2
+         ]
+      ],
+      [
+         [
+            "land",
             3
          ]
       ],
       [
          [
-            "wohneigentum",
-            3
-         ]
-      ],
-      [
-         [
-            "bauen",
-            6
+            "vorrang",
+            2
          ]
       ],
       [
@@ -986,8 +902,8 @@
       ],
       [
          [
-            "kommune",
-            8
+            "bund",
+            4
          ]
       ],
       [
@@ -998,14 +914,8 @@
       ],
       [
          [
-            "schnell",
-            3
-         ]
-      ],
-      [
-         [
-            "schnell",
-            4
+            "leben",
+            2
          ]
       ],
       [
@@ -1016,8 +926,8 @@
       ],
       [
          [
-            "kind",
-            9
+            "bildung",
+            8
          ]
       ],
       [
@@ -1028,14 +938,14 @@
       ],
       [
          [
-            "pädagogisch",
+            "fachkräft",
             2
          ]
       ],
       [
          [
-            "ganztag",
-            5
+            "schule",
+            4
          ]
       ],
       [
@@ -1052,24 +962,18 @@
       ],
       [
          [
-            "digital",
-            7
+            "schule",
+            5
          ]
       ],
       [
          [
-            "bne",
+            "land",
             3
          ]
       ],
       [
          [
-            "brauchen",
-            4
-         ]
-      ],
-      [
-         [
             "ausbildung",
             7
          ]
@@ -1082,14 +986,14 @@
       ],
       [
          [
-            "studierend",
-            6
+            "schritt",
+            2
          ]
       ],
       [
          [
             "weiterbildung",
-            7
+            5
          ]
       ],
       [
@@ -1112,19 +1016,19 @@
       ],
       [
          [
-            "wissenschaftlich",
-            6
+            "gesellschaft",
+            3
          ]
       ],
       [
          [
-            "hochschule",
-            6
+            "wissenschaft",
+            5
          ]
       ],
       [
          [
-            "sicher",
+            "wissenschaft",
             3
          ]
       ],
@@ -1137,7 +1041,7 @@
       [
          [
             "mensch",
-            12
+            10
          ]
       ],
       [
@@ -1148,20 +1052,20 @@
       ],
       [
          [
-            "digital",
-            4
-         ]
-      ],
-      [
-         [
-            "digital",
-            12
-         ]
-      ],
-      [
-         [
-            "staatlich",
+            "verwaltung",
             3
+         ]
+      ],
+      [
+         [
+            "identität",
+            5
+         ]
+      ],
+      [
+         [
+            "zugang",
+            2
          ]
       ],
       [
@@ -1190,8 +1094,8 @@
       ],
       [
          [
-            "öffentlich",
-            5
+            "dienst",
+            4
          ]
       ],
       [
@@ -1214,20 +1118,20 @@
       ],
       [
          [
-            "jüdisch",
-            10
+            "einrichtung",
+            3
          ]
       ],
       [
          [
-            "muslimisch",
-            5
+            "muslim*inn",
+            3
          ]
       ],
       [
          [
-            "rom*nja",
-            5
+            "sinti*zze",
+            3
          ]
       ],
       [
@@ -1239,31 +1143,31 @@
       [
          [
             "kirche",
-            4
+            3
          ]
       ],
       [
          [
             "euro",
-            5
-         ]
-      ],
-      [
-         [
-            "öffentlich",
-            3
-         ]
-      ],
-      [
-         [
-            "brauchen",
             4
          ]
       ],
       [
          [
-            "wahlalter",
-            3
+            "bundestag",
+            2
+         ]
+      ],
+      [
+         [
+            "frau",
+            4
+         ]
+      ],
+      [
+         [
+            "demokratie",
+            2
          ]
       ],
       [
@@ -1274,13 +1178,13 @@
       ],
       [
          [
-            "staatsfern",
+            "rundfunk",
             3
          ]
       ],
       [
          [
-            "digital",
+            "inhalt",
             4
          ]
       ],
@@ -1292,13 +1196,13 @@
       ],
       [
          [
-            "politisch",
+            "arbeit",
             2
          ]
       ],
       [
          [
-            "gleichberechtigt",
+            "förderung",
             2
          ]
       ],
@@ -1310,19 +1214,13 @@
       ],
       [
          [
-            "freiwilligendienst",
-            3
+            "staatsangehörigkeit",
+            2
          ]
       ],
       [
          [
-            "deutschland",
-            4
-         ]
-      ],
-      [
-         [
-            "deutschland",
+            "arbeitsmigration",
             2
          ]
       ],
@@ -1377,13 +1275,13 @@
       [
          [
             "vielfalt",
-            5
+            4
          ]
       ],
       [
          [
-            "notwendig",
-            3
+            "person",
+            2
          ]
       ],
       [
@@ -1400,8 +1298,8 @@
       ],
       [
          [
-            "europäisch",
-            4
+            "zusammenarbeit",
+            3
          ]
       ],
       [
@@ -1412,8 +1310,8 @@
       ],
       [
          [
-            "rechtsextrem",
-            4
+            "struktur",
+            2
          ]
       ],
       [
@@ -1425,19 +1323,19 @@
       [
          [
             "waffe",
-            6
+            5
          ]
       ],
       [
          [
-            "freiwillig",
+            "hilfswerk",
             2
          ]
       ],
       [
          [
-            "unternehmen",
-            3
+            "missstand",
+            2
          ]
       ],
       [
@@ -1448,7 +1346,7 @@
       ],
       [
          [
-            "rechtsverstöße",
+            "unternehmen",
             3
          ]
       ],
@@ -1473,13 +1371,13 @@
       [
          [
             "gerät",
-            4
+            3
          ]
       ],
       [
          [
-            "häufig",
-            3
+            "kund*inn",
+            2
          ]
       ],
       [
@@ -1514,8 +1412,8 @@
       ],
       [
          [
-            "deutsch",
-            5
+            "erinnerungskultur",
+            3
          ]
       ],
       [
@@ -1526,32 +1424,26 @@
       ],
       [
          [
-            "sport",
-            4
+            "förderung",
+            2
          ]
       ],
       [
          [
-            "europäisch",
-            8
+            "zusammenarbeit",
+            2
          ]
       ],
       [
          [
-            "europäisch",
-            4
+            "geschichte",
+            2
          ]
       ],
       [
          [
-            "europäisch",
-            4
-         ]
-      ],
-      [
-         [
-            "europäisch",
-            4
+            "verein",
+            2
          ]
       ],
       [
@@ -1562,26 +1454,26 @@
       ],
       [
          [
-            "eu",
+            "rechtsstaatlichkeit",
+            2
+         ]
+      ],
+      [
+         [
+            "inhalt",
             3
          ]
       ],
       [
          [
-            "öffentlich",
+            "region",
             3
          ]
       ],
       [
          [
-            "kommune",
-            4
-         ]
-      ],
-      [
-         [
-            "global",
-            14
+            "politik",
+            6
          ]
       ],
       [
@@ -1592,8 +1484,8 @@
       ],
       [
          [
-            "global",
-            4
+            "energie",
+            3
          ]
       ],
       [
@@ -1604,20 +1496,14 @@
       ],
       [
          [
-            "sozial",
-            4
+            "mensch",
+            3
          ]
       ],
       [
          [
-            "humanitär",
-            6
-         ]
-      ],
-      [
-         [
-            "sicherheitsrat",
-            4
+            "nation",
+            3
          ]
       ],
       [
@@ -1628,31 +1514,31 @@
       ],
       [
          [
-            "international",
-            3
+            "frau",
+            2
          ]
       ],
       [
          [
-            "eu",
-            5
-         ]
-      ],
-      [
-         [
-            "transatlantisch",
+            "land",
             4
          ]
       ],
       [
          [
-            "china",
-            9
+            "partnerschaft",
+            2
          ]
       ],
       [
          [
-            "global",
+            "menschenrechtsverletzung",
+            2
+         ]
+      ],
+      [
+         [
+            "partner*inn",
             3
          ]
       ],
@@ -1664,8 +1550,8 @@
       ],
       [
          [
-            "türkei",
-            12
+            "demokratie",
+            2
          ]
       ],
       [
@@ -1676,31 +1562,25 @@
       ],
       [
          [
-            "afrikanisch",
-            5
-         ]
-      ],
-      [
-         [
-            "lateinamerika",
-            6
-         ]
-      ],
-      [
-         [
-            "menschenrechtsverteidiger*inne",
-            3
-         ]
-      ],
-      [
-         [
-            "international",
+            "staat",
             4
          ]
       ],
       [
          [
-            "verschlüsselt",
+            "schutz",
+            3
+         ]
+      ],
+      [
+         [
+            "gewalt",
+            2
+         ]
+      ],
+      [
+         [
+            "kommunikation",
             2
          ]
       ],
@@ -1713,7 +1593,7 @@
       [
          [
             "menschenrecht",
-            5
+            3
          ]
       ],
       [
@@ -1724,8 +1604,8 @@
       ],
       [
          [
-            "europäisch",
-            5
+            "mitgliedstaat",
+            4
          ]
       ],
       [
@@ -1736,8 +1616,8 @@
       ],
       [
          [
-            "global",
-            3
+            "nation",
+            2
          ]
       ],
       [
@@ -1748,26 +1628,26 @@
       ],
       [
          [
-            "europäisch",
-            6
-         ]
-      ],
-      [
-         [
-            "europäisch",
+            "raum",
             2
          ]
       ],
       [
          [
-            "mensch",
-            3
+            "unterstützung",
+            2
          ]
       ],
       [
          [
-            "global",
-            5
+            "vertreibung",
+            2
+         ]
+      ],
+      [
+         [
+            "land",
+            3
          ]
       ],
       [
@@ -1778,14 +1658,8 @@
       ],
       [
          [
-            "strikt",
-            2
-         ]
-      ],
-      [
-         [
-            "zivil",
-            4
+            "konflikt",
+            3
          ]
       ],
       [
@@ -1796,88 +1670,70 @@
       ],
       [
          [
-            "verbrechen",
-            4
-         ]
-      ],
-      [
-         [
-            "stärken",
-            3
-         ]
-      ],
-      [
-         [
-            "gemeinsam",
-            4
-         ]
-      ],
-      [
-         [
-            "deutschland",
-            3
-         ]
-      ],
-      [
-         [
-            "verbieten",
+            "unrecht",
             2
          ]
       ],
       [
          [
-            "international",
+            "kultur",
+            2
+         ]
+      ],
+      [
+         [
+            "sicherheit",
             3
          ]
       ],
       [
          [
-            "neu",
-            3
+            "sicherheit",
+            2
          ]
       ],
       [
          [
-            "vereint",
+            "möglichkeit",
+            2
+         ]
+      ],
+      [
+         [
+            "nation",
             3
          ]
       ],
       [
          [
             "bundeswehr",
-            6
+            5
          ]
       ],
       [
          [
-            "europäisch",
-            3
-         ]
-      ],
-      [
-         [
-            "gemeinsam",
-            7
-         ]
-      ]
-   ],
-   "linke_manifesto": [
-      [
-         [
-            "sozial",
-            14
-         ]
-      ],
-      [
-         [
-            "treten",
+            "interesse",
             2
          ]
       ],
       [
          [
-            "sozial",
-            6
+            "sicherheit",
+            2
+         ]
+      ]
+   ],
+   "linke": [
+      [
+         [
+            "mut",
+            2
+         ]
+      ],
+      [
+         [
+            "sicherheit",
+            3
          ]
       ],
       [
@@ -1888,20 +1744,20 @@
       ],
       [
          [
-            "sozial",
-            14
+            "mensch",
+            11
          ]
       ],
       [
          [
-            "sozial",
-            10
-         ]
-      ],
-      [
-         [
-            "beschäftigter",
+            "veränderung",
             5
+         ]
+      ],
+      [
+         [
+            "lohn",
+            3
          ]
       ],
       [
@@ -1912,8 +1768,8 @@
       ],
       [
          [
-            "beschäftigter",
-            3
+            "befristung",
+            2
          ]
       ],
       [
@@ -1924,44 +1780,44 @@
       ],
       [
          [
-            "beschäftigter",
+            "arbeit",
+            4
+         ]
+      ],
+      [
+         [
+            "unternehmen",
+            7
+         ]
+      ],
+      [
+         [
+            "arbeit",
+            4
+         ]
+      ],
+      [
+         [
+            "betriebsrat",
+            4
+         ]
+      ],
+      [
+         [
+            "verteidigung",
+            2
+         ]
+      ],
+      [
+         [
+            "euro",
+            15
+         ]
+      ],
+      [
+         [
+            "sozialstaat",
             5
-         ]
-      ],
-      [
-         [
-            "beschäftigter",
-            12
-         ]
-      ],
-      [
-         [
-            "beschäftigter",
-            10
-         ]
-      ],
-      [
-         [
-            "beschäftigter",
-            6
-         ]
-      ],
-      [
-         [
-            "streikrecht",
-            5
-         ]
-      ],
-      [
-         [
-            "rente",
-            22
-         ]
-      ],
-      [
-         [
-            "sozial",
-            10
          ]
       ],
       [
@@ -1979,13 +1835,13 @@
       [
          [
             "mensch",
-            6
+            5
          ]
       ],
       [
          [
             "kind",
-            10
+            9
          ]
       ],
       [
@@ -1997,13 +1853,13 @@
       [
          [
             "mensch",
-            7
+            6
          ]
       ],
       [
          [
             "krankenhaus",
-            9
+            8
          ]
       ],
       [
@@ -2020,20 +1876,20 @@
       ],
       [
          [
-            "pflegend",
-            10
+            "mensch",
+            7
          ]
       ],
       [
          [
             "ögd",
-            6
+            4
          ]
       ],
       [
          [
-            "mensch",
-            7
+            "gesundheit",
+            6
          ]
       ],
       [
@@ -2050,14 +1906,14 @@
       ],
       [
          [
-            "miete",
+            "wohnung",
             7
          ]
       ],
       [
          [
-            "miete",
-            3
+            "kleingewerbe",
+            2
          ]
       ],
       [
@@ -2074,26 +1930,20 @@
       ],
       [
          [
-            "energetisch",
+            "sanierung",
             7
          ]
       ],
       [
          [
             "boden",
-            5
+            4
          ]
       ],
       [
          [
             "wohnraum",
             3
-         ]
-      ],
-      [
-         [
-            "deutsch",
-            2
          ]
       ],
       [
@@ -2111,7 +1961,7 @@
       [
          [
             "bildung",
-            14
+            13
          ]
       ],
       [
@@ -2123,7 +1973,7 @@
       [
          [
             "schule",
-            27
+            24
          ]
       ],
       [
@@ -2140,14 +1990,14 @@
       ],
       [
          [
-            "hochschule",
-            13
+            "studium",
+            8
          ]
       ],
       [
          [
-            "wissenschaftlich",
-            5
+            "mittelbau",
+            2
          ]
       ],
       [
@@ -2164,8 +2014,8 @@
       ],
       [
          [
-            "ökologisch",
-            3
+            "klimawandel",
+            2
          ]
       ],
       [
@@ -2176,14 +2026,14 @@
       ],
       [
          [
-            "sozial",
-            11
+            "zukunft",
+            6
          ]
       ],
       [
          [
-            "schaffen",
-            9
+            "investition",
+            7
          ]
       ],
       [
@@ -2201,19 +2051,19 @@
       [
          [
             "unternehmen",
-            8
+            7
          ]
       ],
       [
          [
-            "auto",
+            "mobilität",
+            2
+         ]
+      ],
+      [
+         [
+            "angebot",
             3
-         ]
-      ],
-      [
-         [
-            "öffentlich",
-            4
          ]
       ],
       [
@@ -2224,7 +2074,7 @@
       ],
       [
          [
-            "öffentlich",
+            "fahrzeug",
             3
          ]
       ],
@@ -2236,8 +2086,8 @@
       ],
       [
          [
-            "kosten",
-            3
+            "lkw",
+            2
          ]
       ],
       [
@@ -2260,8 +2110,8 @@
       ],
       [
          [
-            "sozial",
-            3
+            "energie",
+            2
          ]
       ],
       [
@@ -2285,7 +2135,7 @@
       [
          [
             "tier",
-            6
+            5
          ]
       ],
       [
@@ -2296,19 +2146,19 @@
       ],
       [
          [
-            "ressource",
-            3
+            "gerät",
+            2
          ]
       ],
       [
          [
             "unternehmen",
-            7
+            6
          ]
       ],
       [
          [
-            "unabhängig",
+            "zusage",
             2
          ]
       ],
@@ -2326,26 +2176,26 @@
       ],
       [
          [
-            "rente",
-            6
+            "angleichung",
+            2
          ]
       ],
       [
          [
-            "westdeutsch",
+            "westen",
             3
          ]
       ],
       [
          [
-            "westdeutsch",
-            3
+            "hand",
+            2
          ]
       ],
       [
          [
             "osten",
-            6
+            5
          ]
       ],
       [
@@ -2363,7 +2213,7 @@
       [
          [
             "kommune",
-            17
+            6
          ]
       ],
       [
@@ -2375,19 +2225,13 @@
       [
          [
             "einkommen",
-            19
+            18
          ]
       ],
       [
          [
-            "grunderwerbsteuer",
+            "verein",
             2
-         ]
-      ],
-      [
-         [
-            "gemeinnützigkeit",
-            3
          ]
       ],
       [
@@ -2404,103 +2248,85 @@
       ],
       [
          [
-            "cum",
-            3
-         ]
-      ],
-      [
-         [
             "wirtschaftsprüfer",
-            5
+            4
          ]
       ],
       [
          [
-            "entziehen",
+            "konzern",
             2
          ]
       ],
       [
          [
             "digitalisierung",
-            5
+            4
          ]
       ],
       [
          [
-            "digital",
-            7
+            "arbeit",
+            5
          ]
       ],
       [
          [
             "plattform",
-            7
+            4
          ]
       ],
       [
          [
-            "öffentlich",
-            10
-         ]
-      ],
-      [
-         [
-            "mensch",
-            10
-         ]
-      ],
-      [
-         [
-            "datum",
-            7
-         ]
-      ],
-      [
-         [
-            "datum",
-            6
-         ]
-      ],
-      [
-         [
-            "digital",
-            2
-         ]
-      ],
-      [
-         [
-            "öffentlich",
-            11
-         ]
-      ],
-      [
-         [
-            "digital",
-            6
-         ]
-      ],
-      [
-         [
-            "digital",
-            3
-         ]
-      ],
-      [
-         [
-            "öffentlich",
-            8
-         ]
-      ],
-      [
-         [
-            "rechenzentrum",
+            "hand",
             5
          ]
       ],
       [
          [
             "mensch",
+            7
+         ]
+      ],
+      [
+         [
+            "datum",
+            6
+         ]
+      ],
+      [
+         [
+            "datum",
+            6
+         ]
+      ],
+      [
+         [
+            "verwaltung",
+            5
+         ]
+      ],
+      [
+         [
+            "schule",
+            5
+         ]
+      ],
+      [
+         [
+            "datum",
+            3
+         ]
+      ],
+      [
+         [
+            "angebot",
+            3
+         ]
+      ],
+      [
+         [
+            "energie",
             3
          ]
       ],
@@ -2518,8 +2344,8 @@
       ],
       [
          [
-            "sozial",
-            4
+            "frau",
+            3
          ]
       ],
       [
@@ -2548,20 +2374,8 @@
       ],
       [
          [
-            "lsbtiqa",
-            2
-         ]
-      ],
-      [
-         [
-            "struktur",
-            3
-         ]
-      ],
-      [
-         [
             "person",
-            3
+            2
          ]
       ],
       [
@@ -2572,44 +2386,44 @@
       ],
       [
          [
-            "tran",
-            4
-         ]
-      ],
-      [
-         [
-            "geflüchtet",
-            5
+            "operation",
+            2
          ]
       ],
       [
          [
             "mensch",
-            24
+            3
          ]
       ],
       [
          [
             "mensch",
-            4
+            20
          ]
       ],
       [
          [
             "mensch",
-            14
+            3
          ]
       ],
       [
          [
             "mensch",
-            11
+            13
          ]
       ],
       [
          [
-            "extrem",
-            7
+            "mensch",
+            10
+         ]
+      ],
+      [
+         [
+            "politik",
+            6
          ]
       ],
       [
@@ -2627,13 +2441,13 @@
       [
          [
             "polizei",
-            11
+            10
          ]
       ],
       [
          [
-            "spende",
-            4
+            "partei",
+            2
          ]
       ],
       [
@@ -2645,7 +2459,7 @@
       [
          [
             "engagement",
-            9
+            8
          ]
       ],
       [
@@ -2656,8 +2470,8 @@
       ],
       [
          [
-            "öffentlich-rechtlich",
-            7
+            "rundfunk",
+            5
          ]
       ],
       [
@@ -2675,7 +2489,7 @@
       [
          [
             "droge",
-            6
+            5
          ]
       ],
       [
@@ -2693,55 +2507,55 @@
       [
          [
             "bundeswehr",
-            20
+            18
          ]
       ],
       [
          [
             "waffe",
+            4
+         ]
+      ],
+      [
+         [
+            "bewaffnung",
+            4
+         ]
+      ],
+      [
+         [
+            "teilhabe",
+            4
+         ]
+      ],
+      [
+         [
+            "krieg",
+            3
+         ]
+      ],
+      [
+         [
+            "sicherheit",
+            3
+         ]
+      ],
+      [
+         [
+            "demokratie",
+            3
+         ]
+      ],
+      [
+         [
+            "land",
             5
          ]
       ],
       [
          [
-            "drohn",
-            5
-         ]
-      ],
-      [
-         [
-            "atomwaffe",
-            5
-         ]
-      ],
-      [
-         [
-            "nato",
-            5
-         ]
-      ],
-      [
-         [
-            "zivil",
-            5
-         ]
-      ],
-      [
-         [
-            "sozial",
-            6
-         ]
-      ],
-      [
-         [
-            "global",
-            10
-         ]
-      ],
-      [
-         [
-            "entwicklungszusammenarbeit",
-            7
+            "land",
+            4
          ]
       ],
       [
@@ -2752,14 +2566,14 @@
       ],
       [
          [
-            "global",
+            "land",
             3
          ]
       ],
       [
          [
-            "un",
-            11
+            "staat",
+            6
          ]
       ],
       [
@@ -2770,20 +2584,20 @@
       ],
       [
          [
-            "deutsch",
+            "kolonialismus",
             4
          ]
       ],
       [
          [
-            "eu",
-            10
+            "union",
+            4
          ]
       ],
       [
          [
-            "europäisch",
-            8
+            "infrastruktur",
+            3
          ]
       ],
       [
@@ -2794,20 +2608,20 @@
       ],
       [
          [
-            "ezb",
-            7
+            "mitgliedstaat",
+            2
          ]
       ],
       [
          [
-            "gerecht",
+            "umbau",
             3
          ]
       ],
       [
          [
             "mensch",
-            6
+            5
          ]
       ],
       [
@@ -2818,8 +2632,8 @@
       ],
       [
          [
-            "europäisch",
-            9
+            "sicherheit",
+            4
          ]
       ],
       [
@@ -2829,17 +2643,11 @@
          ]
       ]
    ],
-   "spd_manifesto": [
-      [
-         [
-            ">",
-            37
-         ]
-      ],
+   "spd": [
       [
          [
             "gesellschaft",
-            9
+            8
          ]
       ],
       [
@@ -2856,38 +2664,44 @@
       ],
       [
          [
-            "europa",
-            9
-         ]
-      ],
-      [
-         [
-            "sozial",
-            2
-         ]
-      ],
-      [
-         [
-            "sehen",
+            "freiheit",
             3
          ]
       ],
       [
          [
-            "erneuerbar",
-            13
+            "erhöhung",
+            2
          ]
       ],
       [
          [
-            "neu",
-            7
+            "zukunft",
+            3
          ]
       ],
       [
          [
-            "digital",
-            29
+            "energie",
+            12
+         ]
+      ],
+      [
+         [
+            "bürger*inn",
+            2
+         ]
+      ],
+      [
+         [
+            "mobilität",
+            3
+         ]
+      ],
+      [
+         [
+            "bürger*inn",
+            9
          ]
       ],
       [
@@ -2904,7 +2718,7 @@
       ],
       [
          [
-            "fördern",
+            "prozent",
             4
          ]
       ],
@@ -2934,38 +2748,38 @@
       ],
       [
          [
-            "neu",
-            7
-         ]
-      ],
-      [
-         [
-            "bürgergeld",
+            "ausbildung",
             6
          ]
       ],
       [
          [
-            "gesetzlich",
-            10
+            "sozialstaat",
+            4
          ]
       ],
       [
          [
-            "sorgen",
-            3
-         ]
-      ],
-      [
-         [
-            "kommune",
+            "rentenversicherung",
             5
          ]
       ],
       [
          [
+            "pflege",
+            3
+         ]
+      ],
+      [
+         [
+            "grundstück",
+            3
+         ]
+      ],
+      [
+         [
             "kind",
-            32
+            29
          ]
       ],
       [
@@ -2994,94 +2808,58 @@
       ],
       [
          [
-            "digital",
+            "medium",
             5
          ]
       ],
       [
          [
-            "sorgen",
-            4
-         ]
-      ],
-      [
-         [
-            "cannabis",
+            "kriminalität",
             3
          ]
       ],
       [
          [
             "landwirtschaft",
-            4
-         ]
-      ],
-      [
-         [
-            "europäisch",
-            2
-         ]
-      ],
-      [
-         [
-            "europäisch",
-            6
-         ]
-      ],
-      [
-         [
-            "europäisch",
-            11
-         ]
-      ],
-      [
-         [
-            "europäisch",
-            14
-         ]
-      ],
-      [
-         [
-            "europa",
-            13
-         ]
-      ],
-      [
-         [
-            "global",
-            19
-         ]
-      ]
-   ],
-   "fdp_manifesto": [
-      [
-         [
-            "glauben",
             3
          ]
       ],
       [
          [
-            "land",
-            2
-         ]
-      ],
-      [
-         [
-            "bleiben",
-            5
-         ]
-      ],
-      [
-         [
-            "stecken",
+            "welt",
             4
          ]
       ],
       [
          [
-            "veränderung",
-            2
+            "arbeitnehmer*inn",
+            3
+         ]
+      ],
+      [
+         [
+            "demokratie",
+            5
+         ]
+      ],
+      [
+         [
+            "zusammenarbeit",
+            7
+         ]
+      ],
+      [
+         [
+            "menschenrecht",
+            8
+         ]
+      ]
+   ],
+   "fdp": [
+      [
+         [
+            "staat",
+            5
          ]
       ],
       [
@@ -3098,32 +2876,14 @@
       ],
       [
          [
-            "negativ",
-            2
-         ]
-      ],
-      [
-         [
-            "deutsch",
-            2
-         ]
-      ],
-      [
-         [
             "unternehmen",
             2
          ]
       ],
       [
          [
-            "deutschland",
-            2
-         ]
-      ],
-      [
-         [
-            "abschreibung",
-            2
+            "unternehmen",
+            4
          ]
       ],
       [
@@ -3140,37 +2900,13 @@
       ],
       [
          [
-            "beteiligung",
-            3
-         ]
-      ],
-      [
-         [
-            "europäisch",
-            4
-         ]
-      ],
-      [
-         [
-            "unternehmen",
-            4
-         ]
-      ],
-      [
-         [
-            "europäisch",
-            3
+            "bundesregierung",
+            2
          ]
       ],
       [
          [
             "rahmen",
-            2
-         ]
-      ],
-      [
-         [
-            "transatlantisch",
             2
          ]
       ],
@@ -3188,271 +2924,37 @@
       ],
       [
          [
-            "prozent",
-            3
-         ]
-      ],
-      [
-         [
-            "bürgerin",
+            "arbeitnehmer",
             2
          ]
       ],
       [
          [
-            "deutschland",
-            3
-         ]
-      ],
-      [
-         [
-            "einkommensteuertarif",
-            2
-         ]
-      ],
-      [
-         [
-            "solidaritätszuschlag",
-            4
-         ]
-      ],
-      [
-         [
-            "easy",
-            3
-         ]
-      ],
-      [
-         [
-            "arbeitgeber",
-            2
-         ]
-      ],
-      [
-         [
-            "doppelbesteuerung",
-            2
-         ]
-      ],
-      [
-         [
-            "mitarbeiterkapitalbeteiligung",
-            2
-         ]
-      ],
-      [
-         [
-            "neu",
-            2
-         ]
-      ],
-      [
-         [
-            "deutschland",
-            2
-         ]
-      ],
-      [
-         [
-            "sozialausgabe",
-            2
-         ]
-      ],
-      [
-         [
-            "deutschland",
-            2
-         ]
-      ],
-      [
-         [
-            "dachfonds",
-            3
-         ]
-      ],
-      [
-         [
-            "gewähren",
-            2
-         ]
-      ],
-      [
-         [
-            "zugang",
-            2
-         ]
-      ],
-      [
-         [
-            "regel",
-            2
-         ]
-      ],
-      [
-         [
-            "unternehmen",
-            2
-         ]
-      ],
-      [
-         [
-            "bemessungsgrundlage",
-            2
-         ]
-      ],
-      [
-         [
-            "deutschland",
-            2
-         ]
-      ],
-      [
-         [
-            "bildung",
-            3
-         ]
-      ],
-      [
-         [
-            "zusätzlich",
-            2
-         ]
-      ],
-      [
-         [
-            "fordern",
+            "steuererklärung",
             2
          ]
       ],
       [
          [
             "schule",
-            9
+            8
          ]
       ],
       [
          [
-            "kind",
-            4
+            "finanzierung",
+            3
          ]
       ],
       [
          [
-            "kind",
+            "initiative",
             2
          ]
       ],
       [
          [
-            "frühkindlich",
-            3
-         ]
-      ],
-      [
-         [
-            "kind",
-            3
-         ]
-      ],
-      [
-         [
-            "fordern",
-            3
-         ]
-      ],
-      [
-         [
-            "makerspaces",
-            3
-         ]
-      ],
-      [
-         [
-            "schüler",
-            2
-         ]
-      ],
-      [
-         [
-            "schülerinn",
-            2
-         ]
-      ],
-      [
-         [
-            "weg",
-            3
-         ]
-      ],
-      [
-         [
-            "fordern",
-            2
-         ]
-      ],
-      [
-         [
-            "digital",
-            3
-         ]
-      ],
-      [
-         [
-            "learning",
-            2
-         ]
-      ],
-      [
-         [
-            "ermöglichen",
-            2
-         ]
-      ],
-      [
-         [
-            "hochschule",
-            4
-         ]
-      ],
-      [
-         [
-            "1.000",
-            5
-         ]
-      ],
-      [
-         [
-            "beruflich",
-            3
-         ]
-      ],
-      [
-         [
-            "beruflich",
-            5
-         ]
-      ],
-      [
-         [
-            "beruflich",
-            4
-         ]
-      ],
-      [
-         [
-            "kompetenz",
-            3
-         ]
-      ],
-      [
-         [
-            "auszubildender",
-            2
-         ]
-      ],
-      [
-         [
-            "beruflich",
+            "programm",
             2
          ]
       ],
@@ -3464,31 +2966,7 @@
       ],
       [
          [
-            "neu",
-            3
-         ]
-      ],
-      [
-         [
-            "digital",
-            3
-         ]
-      ],
-      [
-         [
             "eltern",
-            2
-         ]
-      ],
-      [
-         [
-            "hochschule",
-            3
-         ]
-      ],
-      [
-         [
-            "erasmus+",
             2
          ]
       ],
@@ -3512,74 +2990,8 @@
       ],
       [
          [
-            "digital",
+            "digitalisierung",
             3
-         ]
-      ],
-      [
-         [
-            "fall",
-            4
-         ]
-      ],
-      [
-         [
-            "verwaltung",
-            2
-         ]
-      ],
-      [
-         [
-            "öffentlich",
-            2
-         ]
-      ],
-      [
-         [
-            "bürokratisch",
-            2
-         ]
-      ],
-      [
-         [
-            "fortschritt",
-            2
-         ]
-      ],
-      [
-         [
-            "dtg",
-            2
-         ]
-      ],
-      [
-         [
-            "zielerreichung",
-            2
-         ]
-      ],
-      [
-         [
-            "digital",
-            2
-         ]
-      ],
-      [
-         [
-            "bioökonomie",
-            2
-         ]
-      ],
-      [
-         [
-            "recycling",
-            3
-         ]
-      ],
-      [
-         [
-            "bewertung",
-            2
          ]
       ],
       [
@@ -3590,31 +3002,13 @@
       ],
       [
          [
-            "bezahlbar",
+            "infrastruktur",
             2
          ]
       ],
       [
          [
-            "verbot",
-            2
-         ]
-      ],
-      [
-         [
-            "schiene",
-            3
-         ]
-      ],
-      [
-         [
-            "schnell",
-            2
-         ]
-      ],
-      [
-         [
-            "deutschland",
+            "planung",
             2
          ]
       ],
@@ -3626,49 +3020,7 @@
       ],
       [
          [
-            "fahrzeugbau",
-            2
-         ]
-      ],
-      [
-         [
-            "verkehr",
-            2
-         ]
-      ],
-      [
-         [
-            "mobilität",
-            2
-         ]
-      ],
-      [
-         [
-            "chance",
-            2
-         ]
-      ],
-      [
-         [
-            "ministerium",
-            2
-         ]
-      ],
-      [
-         [
-            "hochleistungsfähig",
-            2
-         ]
-      ],
-      [
-         [
             "verwaltung",
-            3
-         ]
-      ],
-      [
-         [
-            "digital",
             3
          ]
       ],
@@ -3680,163 +3032,19 @@
       ],
       [
          [
-            "ki",
-            2
-         ]
-      ],
-      [
-         [
-            "neu",
-            2
-         ]
-      ],
-      [
-         [
-            "rechenzentrum",
-            3
-         ]
-      ],
-      [
-         [
-            "chance",
-            2
-         ]
-      ],
-      [
-         [
-            "täglich",
-            2
-         ]
-      ],
-      [
-         [
-            "mobil",
-            4
-         ]
-      ],
-      [
-         [
-            "familie",
-            2
-         ]
-      ],
-      [
-         [
             "unternehmen",
             4
          ]
       ],
       [
          [
-            "partnerschutz",
-            4
-         ]
-      ],
-      [
-         [
-            "begrenzt",
-            2
-         ]
-      ],
-      [
-         [
-            "frau",
-            2
-         ]
-      ],
-      [
-         [
-            "management",
-            3
-         ]
-      ],
-      [
-         [
-            "arbeitsvermittlung",
-            2
-         ]
-      ],
-      [
-         [
-            "selbstständige",
-            3
-         ]
-      ],
-      [
-         [
-            "statusfeststellungsverfahren",
-            2
-         ]
-      ],
-      [
-         [
-            "altersvorsorge",
-            3
-         ]
-      ],
-      [
-         [
-            "mindestlohn",
-            2
-         ]
-      ],
-      [
-         [
-            "zeitarbeit",
-            4
-         ]
-      ],
-      [
-         [
-            "gesundheitssystem",
-            2
-         ]
-      ],
-      [
-         [
-            "rki",
-            2
-         ]
-      ],
-      [
-         [
-            "versorgung",
-            2
-         ]
-      ],
-      [
-         [
-            "digitalisierung",
-            2
-         ]
-      ],
-      [
-         [
-            "gesundheitswesen",
-            2
-         ]
-      ],
-      [
-         [
             "cannabis",
-            3
+            2
          ]
       ],
       [
          [
             "arzneimittel",
-            2
-         ]
-      ],
-      [
-         [
-            "gesundheitswesen",
-            2
-         ]
-      ],
-      [
-         [
-            "voraussetzung",
             2
          ]
       ],
@@ -3848,25 +3056,7 @@
       ],
       [
          [
-            "psychisch",
-            3
-         ]
-      ],
-      [
-         [
-            "krankenkasse",
-            3
-         ]
-      ],
-      [
-         [
-            "gesetzlich",
-            2
-         ]
-      ],
-      [
-         [
-            "rezeptpflichtig",
+            "prävention",
             2
          ]
       ],
@@ -3878,127 +3068,13 @@
       ],
       [
          [
-            "digital",
-            2
-         ]
-      ],
-      [
-         [
-            "versorgung",
-            3
-         ]
-      ],
-      [
-         [
-            "pflegebudget",
-            2
-         ]
-      ],
-      [
-         [
-            "pflege",
-            2
-         ]
-      ],
-      [
-         [
-            "entscheidung",
-            2
-         ]
-      ],
-      [
-         [
-            "kinderchancengeld",
-            2
-         ]
-      ],
-      [
-         [
-            "partnerschaftsbonus",
-            2
-         ]
-      ],
-      [
-         [
-            "monat",
-            2
-         ]
-      ],
-      [
-         [
-            "alleinerziehend",
-            2
-         ]
-      ],
-      [
-         [
-            "beruf",
-            2
-         ]
-      ],
-      [
-         [
-            "fordern",
-            2
-         ]
-      ],
-      [
-         [
-            "förderung",
-            2
-         ]
-      ],
-      [
-         [
-            "rechtlich",
-            3
-         ]
-      ],
-      [
-         [
-            "paar",
-            3
-         ]
-      ],
-      [
-         [
-            "beruf",
-            2
-         ]
-      ],
-      [
-         [
             "information",
             3
          ]
       ],
       [
          [
-            "stärken",
-            2
-         ]
-      ],
-      [
-         [
             "verantwortungsgemeinschaft",
-            4
-         ]
-      ],
-      [
-         [
-            "eltern",
-            3
-         ]
-      ],
-      [
-         [
-            "kindeswohl",
-            2
-         ]
-      ],
-      [
-         [
-            "selbstbestimmung",
             4
          ]
       ],
@@ -4016,86 +3092,20 @@
       ],
       [
          [
-            "verschlüsselung",
-            3
-         ]
-      ],
-      [
-         [
-            "sicherheitslücke",
-            3
-         ]
-      ],
-      [
-         [
-            "anlasslos",
+            "mensch",
             2
          ]
       ],
       [
          [
-            "öffentlich",
+            "raum",
             4
          ]
       ],
       [
          [
-            "fordern",
+            "kontrolle",
             2
-         ]
-      ],
-      [
-         [
-            "bargeld",
-            4
-         ]
-      ],
-      [
-         [
-            "rechtsstaat",
-            3
-         ]
-      ],
-      [
-         [
-            "schnell",
-            2
-         ]
-      ],
-      [
-         [
-            "justiz",
-            2
-         ]
-      ],
-      [
-         [
-            "rechtsrahmen",
-            2
-         ]
-      ],
-      [
-         [
-            "fordern",
-            2
-         ]
-      ],
-      [
-         [
-            "europäisch",
-            3
-         ]
-      ],
-      [
-         [
-            "nachrichtendienste",
-            4
-         ]
-      ],
-      [
-         [
-            "organisiert",
-            4
          ]
       ],
       [
@@ -4112,37 +3122,13 @@
       ],
       [
          [
-            "waffenrecht",
-            3
-         ]
-      ],
-      [
-         [
-            "verbraucher",
-            4
-         ]
-      ],
-      [
-         [
-            "schützen",
-            3
-         ]
-      ],
-      [
-         [
-            "netzdg",
+            "entscheidung",
             2
          ]
       ],
       [
          [
-            "örr",
-            3
-         ]
-      ],
-      [
-         [
-            "whistleblowerinn",
+            "rundfunk",
             2
          ]
       ],
@@ -4154,67 +3140,19 @@
       ],
       [
          [
-            "maximal",
-            2
-         ]
-      ],
-      [
-         [
-            "repräsentativ",
-            2
-         ]
-      ],
-      [
-         [
-            "legislaturperiode",
-            3
-         ]
-      ],
-      [
-         [
             "bundestag",
             3
          ]
       ],
       [
          [
-            "politisch",
-            4
-         ]
-      ],
-      [
-         [
-            "gesellschaft",
-            2
-         ]
-      ],
-      [
-         [
-            "liberal",
-            2
-         ]
-      ],
-      [
-         [
-            "extremismus",
-            3
-         ]
-      ],
-      [
-         [
-            "rechtsextrem",
-            3
-         ]
-      ],
-      [
-         [
             "antisemitismus",
-            4
+            3
          ]
       ],
       [
          [
-            "sexuell",
+            "gewalt",
             3
          ]
       ],
@@ -4226,145 +3164,31 @@
       ],
       [
          [
-            "fordern",
-            2
-         ]
-      ],
-      [
-         [
             "mitglied",
             2
          ]
       ],
       [
          [
-            "deutschland",
-            2
-         ]
-      ],
-      [
-         [
-            "kommune",
-            3
-         ]
-      ],
-      [
-         [
-            "bund",
-            3
-         ]
-      ],
-      [
-         [
-            "lebendig",
-            2
-         ]
-      ],
-      [
-         [
-            "ehrenamt",
-            2
-         ]
-      ],
-      [
-         [
-            "bfd",
-            2
-         ]
-      ],
-      [
-         [
-            "sport",
-            2
-         ]
-      ],
-      [
-         [
-            "sport",
-            2
-         ]
-      ],
-      [
-         [
-            "doping",
-            3
-         ]
-      ],
-      [
-         [
-            "land",
-            2
-         ]
-      ],
-      [
-         [
-            "kulturförderung",
-            2
-         ]
-      ],
-      [
-         [
-            "kultur",
-            2
-         ]
-      ],
-      [
-         [
-            "kultur",
-            3
-         ]
-      ],
-      [
-         [
-            "kulturell",
-            4
-         ]
-      ],
-      [
-         [
-            "freiheit",
-            2
-         ]
-      ],
-      [
-         [
             "kulturgut",
-            4
-         ]
-      ],
-      [
-         [
-            "auswärtig",
             2
          ]
       ],
       [
          [
-            "gründung",
+            "nutzung",
             2
          ]
       ],
       [
          [
-            "urheberrecht",
-            5
-         ]
-      ],
-      [
-         [
-            "stark",
+            "herausforderung",
             2
          ]
       ],
       [
          [
-            "idee",
-            2
-         ]
-      ],
-      [
-         [
-            "co2",
+            "ziel",
             3
          ]
       ],
@@ -4376,104 +3200,56 @@
       ],
       [
          [
-            "möglichkeit",
-            3
-         ]
-      ],
-      [
-         [
-            "klimadividende",
+            "seite",
             2
          ]
       ],
       [
          [
-            "wald",
-            4
-         ]
-      ],
-      [
-         [
-            "idee",
+            "moore",
             2
          ]
       ],
       [
          [
-            "kraftstoff",
-            3
-         ]
-      ],
-      [
-         [
-            "speicher",
+            "chance",
             2
          ]
       ],
       [
          [
-            "co2",
-            3
-         ]
-      ],
-      [
-         [
-            "verbesserung",
+            "meerespolitik",
             2
          ]
       ],
       [
          [
-            "artenvielfalt",
+            "konferenz",
             2
          ]
       ],
       [
          [
-            "ausbauen",
+            "verfassung",
             2
-         ]
-      ],
-      [
-         [
-            "eu",
-            3
-         ]
-      ],
-      [
-         [
-            "eu",
-            4
-         ]
-      ],
-      [
-         [
-            "europäisch",
-            5
          ]
       ],
       [
          [
             "parlament",
-            4
-         ]
-      ],
-      [
-         [
-            "strategisch",
             3
          ]
       ],
       [
          [
-            "außen",
-            3
+            "souveränität",
+            2
          ]
       ],
       [
          [
-            "europäisch",
-            7
+            "armee",
+            2
          ]
       ],
       [
@@ -4484,49 +3260,19 @@
       ],
       [
          [
-            "türkei",
-            9
-         ]
-      ],
-      [
-         [
-            "gemeinsam",
+            "beziehung",
             3
          ]
       ],
       [
          [
-            "eu",
+            "abhängigkeit",
             2
          ]
       ],
       [
          [
-            "bafin",
-            3
-         ]
-      ],
-      [
-         [
-            "land",
-            2
-         ]
-      ],
-      [
-         [
-            "aufsicht",
-            2
-         ]
-      ],
-      [
-         [
-            "staatsanleih",
-            2
-         ]
-      ],
-      [
-         [
-            "bank",
+            "regulierung",
             2
          ]
       ],
@@ -4538,56 +3284,8 @@
       ],
       [
          [
-            "europäisch",
-            2
-         ]
-      ],
-      [
-         [
-            "öffentlich",
-            2
-         ]
-      ],
-      [
-         [
-            "eu-haushalt",
-            2
-         ]
-      ],
-      [
-         [
-            "europäisch",
-            6
-         ]
-      ],
-      [
-         [
-            "menschenrecht",
-            2
-         ]
-      ],
-      [
-         [
-            "global",
-            2
-         ]
-      ],
-      [
-         [
-            "international",
-            5
-         ]
-      ],
-      [
-         [
-            "weltweit",
-            2
-         ]
-      ],
-      [
-         [
-            "deutschland",
-            2
+            "entwicklungspolitik",
+            3
          ]
       ],
       [
@@ -4598,80 +3296,50 @@
       ],
       [
          [
-            "nato",
+            "welt",
+            2
+         ]
+      ],
+      [
+         [
+            "russland",
             4
          ]
       ],
       [
          [
-            "bundeswehr",
+            "protest",
+            2
+         ]
+      ],
+      [
+         [
+            "staat",
+            4
+         ]
+      ],
+      [
+         [
+            "menschenrechtsverletzung",
+            2
+         ]
+      ],
+      [
+         [
+            "volksrepublik",
             3
          ]
       ],
       [
          [
-            "neu",
+            "prinzip",
             3
          ]
       ],
       [
          [
-            "eu",
-            5
-         ]
-      ],
-      [
-         [
-            "demokratisch",
+            "beziehung",
             3
-         ]
-      ],
-      [
-         [
-            "demokratisch",
-            4
-         ]
-      ],
-      [
-         [
-            "china",
-            5
-         ]
-      ],
-      [
-         [
-            "taiwan",
-            7
-         ]
-      ],
-      [
-         [
-            "hongkong",
-            5
-         ]
-      ],
-      [
-         [
-            "transatlantisch",
-            4
-         ]
-      ],
-      [
-         [
-            "vereint",
-            4
-         ]
-      ],
-      [
-         [
-            "menschenrecht",
-            5
-         ]
-      ],
-      [
-         [
-            "schutz",
-            4
          ]
       ],
       [
@@ -4682,7 +3350,7 @@
       ],
       [
          [
-            "deutschland",
+            "lsbti-recht",
             2
          ]
       ],
@@ -4694,38 +3362,20 @@
       ],
       [
          [
-            "setzen",
+            "ziel",
             2
          ]
       ],
       [
          [
-            "17",
+            "stärkung",
             2
          ]
       ],
       [
          [
-            "international",
-            5
-         ]
-      ],
-      [
-         [
-            "europäisch",
-            5
-         ]
-      ],
-      [
-         [
-            "afrika",
-            5
-         ]
-      ],
-      [
-         [
-            "einwanderungsgesetzbuch",
-            2
+            "staat",
+            3
          ]
       ],
       [
@@ -4736,26 +3386,14 @@
       ],
       [
          [
-            "politisch",
+            "krieg",
             3
          ]
       ],
       [
          [
-            "staat",
+            "mitgliedstaat",
             2
-         ]
-      ],
-      [
-         [
-            "zuständig",
-            2
-         ]
-      ],
-      [
-         [
-            "frontex",
-            3
          ]
       ],
       [
@@ -4773,37 +3411,25 @@
       [
          [
             "staatsangehörigkeit",
-            9
+            8
          ]
       ],
       [
          [
-            "gesamtsystem",
-            2
-         ]
-      ],
-      [
-         [
-            "erneuerbar",
+            "energie",
             4
          ]
       ],
       [
          [
-            "herausforderung",
-            2
-         ]
-      ],
-      [
-         [
             "wasserstoff",
-            5
+            3
          ]
       ],
       [
          [
-            "europäisch",
-            3
+            "wasserstoffunion",
+            2
          ]
       ],
       [
@@ -4814,44 +3440,14 @@
       ],
       [
          [
-            "akzeptanz",
-            2
-         ]
-      ],
-      [
-         [
-            "landwirtschaft",
-            2
-         ]
-      ],
-      [
-         [
             "landwirt",
-            3
+            2
          ]
       ],
       [
          [
             "wald",
-            7
-         ]
-      ],
-      [
-         [
-            "land",
-            2
-         ]
-      ],
-      [
-         [
-            "tierwohl",
             4
-         ]
-      ],
-      [
-         [
-            "fischerei",
-            3
          ]
       ],
       [
@@ -4862,109 +3458,13 @@
       ],
       [
          [
-            "jägerin",
-            2
-         ]
-      ],
-      [
-         [
-            "nachhaltig",
+            "naturschutz",
             3
          ]
       ],
       [
          [
-            "wohnraum",
-            2
-         ]
-      ],
-      [
-         [
-            "erwerb",
-            2
-         ]
-      ],
-      [
-         [
-            "wohnraum",
-            2
-         ]
-      ],
-      [
-         [
-            "kosten",
-            2
-         ]
-      ],
-      [
-         [
-            "mietpreisbremse",
-            2
-         ]
-      ],
-      [
-         [
-            "bauen",
-            2
-         ]
-      ],
-      [
-         [
-            "digital",
-            3
-         ]
-      ],
-      [
-         [
-            "zugang",
-            2
-         ]
-      ],
-      [
-         [
-            "mensch",
-            3
-         ]
-      ],
-      [
-         [
-            "chance",
-            2
-         ]
-      ],
-      [
-         [
-            "grundsicherung",
-            2
-         ]
-      ],
-      [
-         [
-            "ii",
-            3
-         ]
-      ],
-      [
-         [
-            "altersvorsorge",
-            2
-         ]
-      ],
-      [
-         [
-            "wandel",
-            2
-         ]
-      ],
-      [
-         [
-            "altersvorsorge",
-            2
-         ]
-      ],
-      [
-         [
-            "rente",
+            "schritt",
             2
          ]
       ],
@@ -4972,68 +3472,20 @@
          [
             "altersvorsorge",
             3
-         ]
-      ],
-      [
-         [
-            "basis-rente",
-            2
-         ]
-      ],
-      [
-         [
-            "betrieblich",
-            2
-         ]
-      ],
-      [
-         [
-            "altersvorsorge",
-            3
-         ]
-      ],
-      [
-         [
-            "blick",
-            2
-         ]
-      ],
-      [
-         [
-            "schuldenbremse",
-            2
-         ]
-      ],
-      [
-         [
-            "rentenanpassungsformel",
-            2
-         ]
-      ],
-      [
-         [
-            "mensch",
-            2
          ]
       ]
    ],
-   "cdu_manifesto": [
+   "cdu": [
       [
          [
-            "deutschland",
-            7
-         ]
-      ],
-      [
-         [
-            "gemeinsam",
-            8
-         ]
-      ],
-      [
-         [
-            "international",
+            "land",
             6
+         ]
+      ],
+      [
+         [
+            "staat",
+            2
          ]
       ],
       [
@@ -5044,74 +3496,26 @@
       ],
       [
          [
-            "menschenrecht",
-            2
-         ]
-      ],
-      [
-         [
-            "außen",
-            4
-         ]
-      ],
-      [
-         [
-            "eng",
-            4
-         ]
-      ],
-      [
-         [
-            "nato",
-            7
-         ]
-      ],
-      [
-         [
-            "langfristig",
-            2
-         ]
-      ],
-      [
-         [
-            "europäisch",
-            2
-         ]
-      ],
-      [
-         [
-            "russland",
+            "handel",
             3
          ]
       ],
       [
          [
-            "europa",
+            "teilhabe",
             3
          ]
       ],
       [
          [
-            "israel",
-            5
-         ]
-      ],
-      [
-         [
-            "setzen",
+            "staat",
             2
          ]
       ],
       [
          [
-            "china",
-            5
-         ]
-      ],
-      [
-         [
-            "bundeswehr",
-            6
+            "abhängigkeit",
+            2
          ]
       ],
       [
@@ -5122,14 +3526,20 @@
       ],
       [
          [
-            "bundeswehr",
+            "platz",
             3
          ]
       ],
       [
          [
-            "stark",
-            3
+            "bundeswehr",
+            2
+         ]
+      ],
+      [
+         [
+            "ziel",
+            2
          ]
       ],
       [
@@ -5140,152 +3550,146 @@
       ],
       [
          [
-            "afrika",
-            8
+            "entwicklung",
+            2
          ]
       ],
       [
          [
-            "international",
-            5
-         ]
-      ],
-      [
-         [
-            "europa",
-            10
-         ]
-      ],
-      [
-         [
-            "europäisch",
+            "rahmen",
             3
          ]
       ],
       [
          [
-            "europäisch",
+            "herausforderung",
+            3
+         ]
+      ],
+      [
+         [
+            "freundschaft",
+            3
+         ]
+      ],
+      [
+         [
+            "welt",
+            2
+         ]
+      ],
+      [
+         [
+            "union",
+            3
+         ]
+      ],
+      [
+         [
+            "beziehung",
+            2
+         ]
+      ],
+      [
+         [
+            "industrie",
+            2
+         ]
+      ],
+      [
+         [
+            "stabilität",
+            2
+         ]
+      ],
+      [
+         [
+            "bargeld",
+            3
+         ]
+      ],
+      [
+         [
+            "wirtschaft",
+            2
+         ]
+      ],
+      [
+         [
+            "partner",
+            2
+         ]
+      ],
+      [
+         [
+            "wettbewerbsfähigkeit",
+            2
+         ]
+      ],
+      [
+         [
+            "sicherheit",
             4
          ]
       ],
       [
          [
-            "europäisch",
-            12
-         ]
-      ],
-      [
-         [
-            "eng",
-            3
-         ]
-      ],
-      [
-         [
-            "türkei",
-            7
-         ]
-      ],
-      [
-         [
-            "deal",
+            "mensch",
             5
          ]
       ],
       [
          [
-            "europäisch",
-            5
-         ]
-      ],
-      [
-         [
-            "digital",
+            "mitgliedstaat",
             3
          ]
       ],
       [
          [
-            "europäisch",
+            "mitgliedstaat",
             3
          ]
       ],
       [
          [
-            "europäisch",
-            4
+            "wettbewerbsrecht",
+            2
          ]
       ],
       [
          [
-            "europäisch",
-            5
+            "forschung",
+            2
          ]
       ],
       [
          [
-            "europäisch",
+            "bildung",
+            2
+         ]
+      ],
+      [
+         [
+            "vernetzung",
+            3
+         ]
+      ],
+      [
+         [
+            "zukunft",
+            3
+         ]
+      ],
+      [
+         [
+            "parlament",
             6
          ]
       ],
       [
          [
-            "deutschland",
-            6
-         ]
-      ],
-      [
-         [
-            "europäisch",
-            8
-         ]
-      ],
-      [
-         [
-            "sozial",
-            3
-         ]
-      ],
-      [
-         [
-            "digital",
-            5
-         ]
-      ],
-      [
-         [
-            "europäisch",
-            5
-         ]
-      ],
-      [
-         [
-            "europäisch",
-            6
-         ]
-      ],
-      [
-         [
-            "europa",
-            4
-         ]
-      ],
-      [
-         [
-            "europa",
-            9
-         ]
-      ],
-      [
-         [
-            "europäisch",
-            9
-         ]
-      ],
-      [
-         [
-            "europäisch",
-            4
+            "zusammenarbeit",
+            2
          ]
       ],
       [
@@ -5296,26 +3700,20 @@
       ],
       [
          [
-            "sozial",
-            6
+            "marktwirtschaft",
+            4
          ]
       ],
       [
          [
-            "unternehmen",
+            "wirtschaft",
             2
          ]
       ],
       [
          [
-            "neu",
-            3
-         ]
-      ],
-      [
-         [
-            "verbessern",
-            4
+            "investition",
+            2
          ]
       ],
       [
@@ -5332,19 +3730,13 @@
       ],
       [
          [
-            "öffentlich",
-            3
-         ]
-      ],
-      [
-         [
             "tarifpartner",
             3
          ]
       ],
       [
          [
-            "betriebsrat",
+            "arbeit",
             2
          ]
       ],
@@ -5356,31 +3748,25 @@
       ],
       [
          [
-            "arbeitswelt",
+            "land",
             2
          ]
       ],
       [
          [
-            "deutsch",
-            6
+            "technologie",
+            3
          ]
       ],
       [
          [
-            "erreichen",
-            4
+            "mobilität",
+            3
          ]
       ],
       [
          [
-            "emissionshandel",
-            6
-         ]
-      ],
-      [
-         [
-            "maßnahme",
+            "klimaschutz",
             2
          ]
       ],
@@ -5398,32 +3784,20 @@
       ],
       [
          [
-            "ausbau",
-            2
-         ]
-      ],
-      [
-         [
             "wasserstoff",
-            9
+            3
          ]
       ],
       [
          [
-            "wirtschaftlich",
-            2
-         ]
-      ],
-      [
-         [
-            "rohstoff",
-            4
+            "abfall",
+            3
          ]
       ],
       [
          [
             "wald",
-            13
+            5
          ]
       ],
       [
@@ -5434,8 +3808,8 @@
       ],
       [
          [
-            "schiene",
-            4
+            "verkehr",
+            2
          ]
       ],
       [
@@ -5446,13 +3820,7 @@
       ],
       [
          [
-            "schifffahrt",
-            3
-         ]
-      ],
-      [
-         [
-            "stark",
+            "flug",
             2
          ]
       ],
@@ -5488,12 +3856,6 @@
       ],
       [
          [
-            "neu",
-            3
-         ]
-      ],
-      [
-         [
             "kind",
             3
          ]
@@ -5506,19 +3868,13 @@
       ],
       [
          [
-            "fair",
-            3
-         ]
-      ],
-      [
-         [
             "lebensmittel",
             2
          ]
       ],
       [
          [
-            "mündig",
+            "lebensmittel",
             2
          ]
       ],
@@ -5530,55 +3886,31 @@
       ],
       [
          [
-            "einfach",
+            "datum",
+            4
+         ]
+      ],
+      [
+         [
+            "welt",
+            3
+         ]
+      ],
+      [
+         [
+            "rentenversicherung",
+            4
+         ]
+      ],
+      [
+         [
+            "rehabilitation",
             2
          ]
       ],
       [
          [
-            "digital",
-            5
-         ]
-      ],
-      [
-         [
-            "sozial",
-            4
-         ]
-      ],
-      [
-         [
-            "rente",
-            4
-         ]
-      ],
-      [
-         [
-            "rente",
-            2
-         ]
-      ],
-      [
-         [
-            "gesetzlich",
-            4
-         ]
-      ],
-      [
-         [
-            "mensch",
-            2
-         ]
-      ],
-      [
-         [
-            "selbstständige",
-            4
-         ]
-      ],
-      [
-         [
-            "betrieblich",
+            "altersvorsorge",
             3
          ]
       ],
@@ -5590,121 +3922,79 @@
       ],
       [
          [
-            "altersvorsorge",
-            2
-         ]
-      ],
-      [
-         [
-            "stehen",
-            2
-         ]
-      ],
-      [
-         [
             "mensch",
-            7
+            6
          ]
       ],
       [
          [
-            "setzen",
-            2
-         ]
-      ],
-      [
-         [
-            "digital",
-            4
+            "arzt",
+            3
          ]
       ],
       [
          [
             "krankenhaus",
-            4
-         ]
-      ],
-      [
-         [
-            "gesundheitsberuf",
-            2
-         ]
-      ],
-      [
-         [
-            "mensch",
-            2
-         ]
-      ],
-      [
-         [
-            "öffentlich",
             3
          ]
       ],
       [
          [
-            "jugendschutz",
-            2
-         ]
-      ],
-      [
-         [
-            "deutschland",
-            4
-         ]
-      ],
-      [
-         [
-            "deutschland",
-            4
-         ]
-      ],
-      [
-         [
-            "mensch",
-            2
-         ]
-      ],
-      [
-         [
-            "pflege",
-            4
-         ]
-      ],
-      [
-         [
-            "pflegeversicherung",
-            2
-         ]
-      ],
-      [
-         [
-            "pflege",
-            4
-         ]
-      ],
-      [
-         [
-            "pflege",
-            4
-         ]
-      ],
-      [
-         [
-            "who",
-            4
-         ]
-      ],
-      [
-         [
-            "neu",
+            "gesundheitsdienst",
             3
          ]
       ],
       [
          [
-            "solide",
+            "aufklärung",
+            2
+         ]
+      ],
+      [
+         [
+            "arzneimittel",
+            4
+         ]
+      ],
+      [
+         [
+            "pandemie",
+            2
+         ]
+      ],
+      [
+         [
+            "pflege",
+            3
+         ]
+      ],
+      [
+         [
+            "pflege",
+            4
+         ]
+      ],
+      [
+         [
+            "pflege",
+            3
+         ]
+      ],
+      [
+         [
+            "pandemie",
+            2
+         ]
+      ],
+      [
+         [
+            "staat",
+            3
+         ]
+      ],
+      [
+         [
+            "haushalt",
             3
          ]
       ],
@@ -5722,7 +4012,7 @@
       ],
       [
          [
-            "einfach",
+            "steuererklärung",
             4
          ]
       ],
@@ -5734,62 +4024,14 @@
       ],
       [
          [
-            "mensch",
-            2
-         ]
-      ],
-      [
-         [
-            "unternehmen",
-            3
-         ]
-      ],
-      [
-         [
-            "erhöhen",
-            2
-         ]
-      ],
-      [
-         [
-            "vermögensteuer",
-            3
-         ]
-      ],
-      [
-         [
-            "stark",
-            3
-         ]
-      ],
-      [
-         [
-            "stark",
-            2
-         ]
-      ],
-      [
-         [
             "familie",
             5
          ]
       ],
       [
          [
-            "elterngeld",
-            3
-         ]
-      ],
-      [
-         [
             "familie",
             2
-         ]
-      ],
-      [
-         [
-            "familie",
-            4
          ]
       ],
       [
@@ -5813,49 +4055,7 @@
       [
          [
             "kind",
-            4
-         ]
-      ],
-      [
-         [
-            "kind",
             3
-         ]
-      ],
-      [
-         [
-            "demokratisch",
-            2
-         ]
-      ],
-      [
-         [
-            "einsamkeit",
-            2
-         ]
-      ],
-      [
-         [
-            "frau",
-            3
-         ]
-      ],
-      [
-         [
-            "chancengleichheit",
-            2
-         ]
-      ],
-      [
-         [
-            "jung",
-            3
-         ]
-      ],
-      [
-         [
-            "kind",
-            4
          ]
       ],
       [
@@ -5866,14 +4066,8 @@
       ],
       [
          [
-            "schule",
-            3
-         ]
-      ],
-      [
-         [
             "kind",
-            4
+            3
          ]
       ],
       [
@@ -5884,38 +4078,8 @@
       ],
       [
          [
-            "beruflich",
-            3
-         ]
-      ],
-      [
-         [
-            "digital",
-            4
-         ]
-      ],
-      [
-         [
-            "beschäftigter",
-            3
-         ]
-      ],
-      [
-         [
             "bafög",
-            3
-         ]
-      ],
-      [
-         [
-            "lesen",
-            3
-         ]
-      ],
-      [
-         [
-            "neu",
-            7
+            2
          ]
       ],
       [
@@ -5926,20 +4090,20 @@
       ],
       [
          [
-            "mittelstand",
+            "innovation",
+            4
+         ]
+      ],
+      [
+         [
+            "kommunikation",
             2
          ]
       ],
       [
          [
-            "neu",
-            2
-         ]
-      ],
-      [
-         [
-            "schaffen",
-            5
+            "entwicklung",
+            4
          ]
       ],
       [
@@ -5950,73 +4114,31 @@
       ],
       [
          [
-            "forschung",
+            "wissenschaft",
             2
          ]
       ],
       [
          [
-            "forschung",
+            "wissenschaftlerinn",
             2
-         ]
-      ],
-      [
-         [
-            "sozial",
-            4
-         ]
-      ],
-      [
-         [
-            "sprunginnovatione",
-            2
-         ]
-      ],
-      [
-         [
-            "weltweit",
-            3
-         ]
-      ],
-      [
-         [
-            "forschungseinrichtung",
-            2
-         ]
-      ],
-      [
-         [
-            "deutsch",
-            3
-         ]
-      ],
-      [
-         [
-            "schaffen",
-            4
          ]
       ],
       [
          [
             "unternehmen",
-            2
+            3
          ]
       ],
       [
          [
-            "digital",
-            7
+            "wettbewerb",
+            3
          ]
       ],
       [
          [
-            "digital",
-            5
-         ]
-      ],
-      [
-         [
-            "modernisierung",
+            "souveränität",
             2
          ]
       ],
@@ -6034,13 +4156,13 @@
       ],
       [
          [
-            "digital",
-            11
+            "verwaltung",
+            7
          ]
       ],
       [
          [
-            "schnell",
+            "planungsverfahr",
             3
          ]
       ],
@@ -6058,43 +4180,37 @@
       ],
       [
          [
-            "verwaltung",
-            3
+            "verfahren",
+            2
          ]
       ],
       [
          [
             "bürger",
+            2
+         ]
+      ],
+      [
+         [
+            "verantwortung",
+            2
+         ]
+      ],
+      [
+         [
+            "dienst",
             3
          ]
       ],
       [
          [
-            "digital",
-            4
+            "dienst",
+            3
          ]
       ],
       [
          [
-            "digital",
-            7
-         ]
-      ],
-      [
-         [
-            "öffentlich",
-            4
-         ]
-      ],
-      [
-         [
-            "neu",
-            4
-         ]
-      ],
-      [
-         [
-            "öffentlich",
+            "dienst",
             5
          ]
       ],
@@ -6112,20 +4228,14 @@
       ],
       [
          [
-            "kommunikation",
-            2
-         ]
-      ],
-      [
-         [
             "verfahren",
             5
          ]
       ],
       [
          [
-            "bund",
-            3
+            "bundesverwaltung",
+            2
          ]
       ],
       [
@@ -6136,32 +4246,14 @@
       ],
       [
          [
-            "einbrecher",
-            2
-         ]
-      ],
-      [
-         [
             "sicherheit",
             2
          ]
       ],
       [
          [
-            "intelligent",
-            2
-         ]
-      ],
-      [
-         [
-            "schützen",
-            4
-         ]
-      ],
-      [
-         [
-            "täter",
-            2
+            "polizist",
+            3
          ]
       ],
       [
@@ -6178,49 +4270,25 @@
       ],
       [
          [
-            "opfer",
+            "prostitution",
             2
          ]
       ],
       [
          [
-            "zuhälterei",
+            "zusammenarbeit",
             2
          ]
       ],
       [
          [
-            "grenzüberschreitend",
+            "vermögen",
             2
          ]
       ],
       [
          [
-            "geldwäsche",
-            3
-         ]
-      ],
-      [
-         [
-            "kriminell",
-            2
-         ]
-      ],
-      [
-         [
-            "kriminell",
-            3
-         ]
-      ],
-      [
-         [
-            "kriminell",
-            2
-         ]
-      ],
-      [
-         [
-            "land",
+            "staat",
             2
          ]
       ],
@@ -6232,8 +4300,8 @@
       ],
       [
          [
-            "politisch",
-            3
+            "demokratie",
+            2
          ]
       ],
       [
@@ -6244,7 +4312,7 @@
       ],
       [
          [
-            "gehören",
+            "möglichkeit",
             4
          ]
       ],
@@ -6274,13 +4342,7 @@
       ],
       [
          [
-            "bund",
-            3
-         ]
-      ],
-      [
-         [
-            "deutschland",
+            "zusammenarbeit",
             2
          ]
       ],
@@ -6292,25 +4354,19 @@
       ],
       [
          [
-            "bevölkerungsschutz",
-            7
+            "land",
+            4
          ]
       ],
       [
          [
-            "warnsystem",
+            "mensch",
             2
          ]
       ],
       [
          [
-            "ehrenamtlich",
-            2
-         ]
-      ],
-      [
-         [
-            "stark",
+            "sicherheit",
             2
          ]
       ],
@@ -6322,56 +4378,32 @@
       ],
       [
          [
-            "digital",
-            3
-         ]
-      ],
-      [
-         [
-            "leben",
-            3
-         ]
-      ],
-      [
-         [
-            "wohnraum",
+            "justiz",
             2
          ]
       ],
       [
          [
-            "bleiben",
+            "lebensqualität",
             2
          ]
       ],
       [
          [
             "wohnungsbau",
-            4
+            3
          ]
       ],
       [
          [
-            "energetisch",
-            2
-         ]
-      ],
-      [
-         [
-            "fördern",
-            4
+            "ort",
+            3
          ]
       ],
       [
          [
             "wohnraum",
             3
-         ]
-      ],
-      [
-         [
-            "stadt",
-            2
          ]
       ],
       [
@@ -6382,31 +4414,19 @@
       ],
       [
          [
-            "neu",
-            6
+            "region",
+            2
          ]
       ],
       [
          [
-            "ländlich",
+            "region",
             3
          ]
       ],
       [
          [
-            "tourismus",
-            3
-         ]
-      ],
-      [
-         [
-            "digital",
-            3
-         ]
-      ],
-      [
-         [
-            "versorgung",
+            "dorf",
             2
          ]
       ],
@@ -6424,20 +4444,14 @@
       ],
       [
          [
-            "sicherheit",
-            2
-         ]
-      ],
-      [
-         [
-            "art",
+            "vielfalt",
             3
          ]
       ],
       [
          [
             "ehrenamt",
-            6
+            4
          ]
       ],
       [
@@ -6455,13 +4469,13 @@
       [
          [
             "mensch",
-            4
+            3
          ]
       ],
       [
          [
-            "aussiedler",
-            4
+            "land",
+            3
          ]
       ],
       [
@@ -6472,33 +4486,27 @@
       ],
       [
          [
-            "bleiben",
-            3
+            "sed-diktatur",
+            2
          ]
       ],
       [
          [
-            "stark",
-            3
+            "unterstützung",
+            2
          ]
       ],
       [
          [
-            "digital",
-            3
+            "bürger",
+            2
          ]
       ]
    ],
-   "afd_manifesto": [
+   "afd": [
       [
          [
-            "deutschland",
-            10
-         ]
-      ],
-      [
-         [
-            "regierungspolitiker",
+            "land",
             2
          ]
       ],
@@ -6510,44 +4518,8 @@
       ],
       [
          [
-            "gelten",
-            2
-         ]
-      ],
-      [
-         [
             "partei",
             4
-         ]
-      ],
-      [
-         [
-            "wähler",
-            2
-         ]
-      ],
-      [
-         [
-            "abgeordneter",
-            2
-         ]
-      ],
-      [
-         [
-            "nebentätigkeit",
-            2
-         ]
-      ],
-      [
-         [
-            "freiheit",
-            2
-         ]
-      ],
-      [
-         [
-            "quote",
-            2
          ]
       ],
       [
@@ -6570,56 +4542,32 @@
       ],
       [
          [
-            "europäisch",
-            6
-         ]
-      ],
-      [
-         [
-            "steuer",
-            2
-         ]
-      ],
-      [
-         [
-            "entfallen",
-            2
-         ]
-      ],
-      [
-         [
-            "kommune",
-            4
-         ]
-      ],
-      [
-         [
-            "erwerb",
-            5
-         ]
-      ],
-      [
-         [
-            "einkommen",
-            2
-         ]
-      ],
-      [
-         [
-            "umsatz",
-            4
-         ]
-      ],
-      [
-         [
-            "weltweit",
-            2
-         ]
-      ],
-      [
-         [
-            "fördern",
+            "union",
             3
+         ]
+      ],
+      [
+         [
+            "unternehmen",
+            3
+         ]
+      ],
+      [
+         [
+            "freibetrag",
+            2
+         ]
+      ],
+      [
+         [
+            "wirtschaft",
+            2
+         ]
+      ],
+      [
+         [
+            "entwicklung",
+            2
          ]
       ],
       [
@@ -6630,32 +4578,20 @@
       ],
       [
          [
-            "staatenbund",
+            "euro",
             2
          ]
       ],
       [
          [
-            "national",
+            "staat",
             2
          ]
       ],
       [
          [
-            "eu",
-            3
-         ]
-      ],
-      [
-         [
-            "bundesregierung",
-            2
-         ]
-      ],
-      [
-         [
-            "ezb",
-            8
+            "führen",
+            4
          ]
       ],
       [
@@ -6667,43 +4603,37 @@
       [
          [
             "bargeld",
-            6
+            4
          ]
       ],
       [
          [
-            "deutsch",
-            7
-         ]
-      ],
-      [
-         [
-            "deutschland",
+            "forderung",
             3
          ]
       ],
       [
          [
-            "staatsgold",
+            "ausland",
+            2
+         ]
+      ],
+      [
+         [
+            "staat",
             3
          ]
       ],
       [
          [
-            "deutschland",
-            5
-         ]
-      ],
-      [
-         [
-            "deutschland",
-            6
+            "beziehung",
+            3
          ]
       ],
       [
          [
             "bundeswehr",
-            4
+            3
          ]
       ],
       [
@@ -6714,44 +4644,20 @@
       ],
       [
          [
-            "deutsch",
-            4
-         ]
-      ],
-      [
-         [
-            "deutsch",
-            7
-         ]
-      ],
-      [
-         [
-            "sicherheit",
+            "zugang",
             2
          ]
       ],
       [
          [
-            "fordern",
+            "kultur",
             3
          ]
       ],
       [
          [
             "einbürgerung",
-            5
-         ]
-      ],
-      [
-         [
-            "deutsch",
-            2
-         ]
-      ],
-      [
-         [
-            "täter",
-            2
+            4
          ]
       ],
       [
@@ -6768,38 +4674,14 @@
       ],
       [
          [
-            "person",
-            2
-         ]
-      ],
-      [
-         [
-            "organisiert",
-            2
-         ]
-      ],
-      [
-         [
-            "verschärfung",
-            2
-         ]
-      ],
-      [
-         [
-            "deutschland",
-            6
-         ]
-      ],
-      [
-         [
-            "europa",
+            "grundgesetz",
             3
          ]
       ],
       [
          [
-            "grenze",
-            5
+            "jahrhundert",
+            2
          ]
       ],
       [
@@ -6816,32 +4698,26 @@
       ],
       [
          [
-            "deutschland",
-            3
+            "leistung",
+            2
          ]
       ],
       [
          [
-            "europäisch",
-            4
+            "grenzsicherung",
+            2
          ]
       ],
       [
          [
-            "deutschland",
-            5
+            "identität",
+            2
          ]
       ],
       [
          [
             "integration",
             3
-         ]
-      ],
-      [
-         [
-            "deutsch",
-            2
          ]
       ],
       [
@@ -6858,14 +4734,14 @@
       ],
       [
          [
-            "steuerlich",
-            4
+            "familie",
+            2
          ]
       ],
       [
          [
             "kind",
-            8
+            7
          ]
       ],
       [
@@ -6895,115 +4771,13 @@
       [
          [
             "kind",
-            5
+            4
          ]
       ],
       [
          [
             "frau",
             5
-         ]
-      ],
-      [
-         [
-            "grundsicherung",
-            3
-         ]
-      ],
-      [
-         [
-            "einstimmigkeitsprinzip",
-            2
-         ]
-      ],
-      [
-         [
-            "sozialleistung",
-            2
-         ]
-      ],
-      [
-         [
-            "leiharbeitnehmer",
-            2
-         ]
-      ],
-      [
-         [
-            "mindestlohn",
-            2
-         ]
-      ],
-      [
-         [
-            "arbeitslosengeld",
-            4
-         ]
-      ],
-      [
-         [
-            "arbeitslosenversicherung",
-            2
-         ]
-      ],
-      [
-         [
-            "arbeiten",
-            2
-         ]
-      ],
-      [
-         [
-            "schwarzarbeit",
-            3
-         ]
-      ],
-      [
-         [
-            "schaffen",
-            2
-         ]
-      ],
-      [
-         [
-            "wohnung",
-            3
-         ]
-      ],
-      [
-         [
-            "mensch",
-            4
-         ]
-      ],
-      [
-         [
-            "brauchen",
-            2
-         ]
-      ],
-      [
-         [
-            "arbeiten",
-            3
-         ]
-      ],
-      [
-         [
-            "einzahlen",
-            2
-         ]
-      ],
-      [
-         [
-            "politiker",
-            2
-         ]
-      ],
-      [
-         [
-            "rentenversicherung",
-            2
          ]
       ],
       [
@@ -7020,49 +4794,19 @@
       ],
       [
          [
-            "rente",
-            3
-         ]
-      ],
-      [
-         [
-            "rentensystem",
+            "maske",
             2
          ]
       ],
       [
          [
-            "lehnen",
-            3
-         ]
-      ],
-      [
-         [
-            "corona-politik",
+            "system",
             2
          ]
       ],
       [
          [
-            "fordern",
-            2
-         ]
-      ],
-      [
-         [
-            "bestehend",
-            3
-         ]
-      ],
-      [
-         [
-            "ärztlich",
-            4
-         ]
-      ],
-      [
-         [
-            "anschließend",
+            "förderung",
             2
          ]
       ],
@@ -7074,128 +4818,20 @@
       ],
       [
          [
-            "sozial",
-            2
-         ]
-      ],
-      [
-         [
             "medikament",
-            5
-         ]
-      ],
-      [
-         [
-            "klinik",
-            3
-         ]
-      ],
-      [
-         [
-            "speicherung",
-            2
-         ]
-      ],
-      [
-         [
-            "who",
             4
          ]
       ],
       [
          [
-            "niveau",
-            2
-         ]
-      ],
-      [
-         [
-            "beruflich",
-            2
-         ]
-      ],
-      [
-         [
-            "kind",
-            2
-         ]
-      ],
-      [
-         [
-            "deutsch",
+            "kultur",
             3
          ]
       ],
       [
          [
-            "bildung",
-            2
-         ]
-      ],
-      [
-         [
-            "lobbygruppe",
-            2
-         ]
-      ],
-      [
-         [
-            "deutsch",
-            2
-         ]
-      ],
-      [
-         [
-            "schule",
+            "identität",
             3
-         ]
-      ],
-      [
-         [
-            "koranschul",
-            2
-         ]
-      ],
-      [
-         [
-            "konfuzius-institute",
-            2
-         ]
-      ],
-      [
-         [
-            "hochschule",
-            2
-         ]
-      ],
-      [
-         [
-            "gender-ideologie",
-            4
-         ]
-      ],
-      [
-         [
-            "deutsch",
-            3
-         ]
-      ],
-      [
-         [
-            "sprache",
-            7
-         ]
-      ],
-      [
-         [
-            "staatlich",
-            3
-         ]
-      ],
-      [
-         [
-            "deutsch",
-            4
          ]
       ],
       [
@@ -7206,31 +4842,13 @@
       ],
       [
          [
-            "medium",
-            3
-         ]
-      ],
-      [
-         [
-            "politisch",
-            2
-         ]
-      ],
-      [
-         [
             "wohnungsneubau",
             2
          ]
       ],
       [
          [
-            "wohneigentum",
-            3
-         ]
-      ],
-      [
-         [
-            "wohngeld",
+            "eigentum",
             3
          ]
       ],
@@ -7242,20 +4860,14 @@
       ],
       [
          [
-            "klima",
-            2
-         ]
-      ],
-      [
-         [
             "technik",
             3
          ]
       ],
       [
          [
-            "lehnen",
-            6
+            "nutzung",
+            4
          ]
       ],
       [
@@ -7266,38 +4878,20 @@
       ],
       [
          [
-            "bürger",
+            "behörde",
             3
          ]
       ],
       [
          [
-            "fordern",
-            3
-         ]
-      ],
-      [
-         [
-            "europäisch",
+            "bürgern",
             2
          ]
       ],
       [
          [
-            "verkehrsmittel",
+            "sicherheit",
             2
-         ]
-      ],
-      [
-         [
-            "deutschland",
-            3
-         ]
-      ],
-      [
-         [
-            "deutschland",
-            3
          ]
       ],
       [
@@ -7309,42 +4903,12 @@
       [
          [
             "land",
-            4
-         ]
-      ],
-      [
-         [
-            "umland",
-            2
-         ]
-      ],
-      [
-         [
-            "infrastruktur",
-            2
-         ]
-      ],
-      [
-         [
-            "kommune",
-            2
-         ]
-      ],
-      [
-         [
-            "flächendeckend",
-            4
-         ]
-      ],
-      [
-         [
-            "verbraucher",
             3
          ]
       ],
       [
          [
-            "agrarpolitik",
+            "lebensmittel",
             2
          ]
       ],
@@ -7362,31 +4926,7 @@
       ],
       [
          [
-            "gebietsfremd",
-            2
-         ]
-      ],
-      [
-         [
-            "wolf",
-            3
-         ]
-      ],
-      [
-         [
-            "wald",
-            3
-         ]
-      ],
-      [
-         [
-            "produkt",
-            2
-         ]
-      ],
-      [
-         [
-            "hand",
+            "ausbau",
             2
          ]
       ]

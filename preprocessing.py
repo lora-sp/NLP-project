@@ -3,9 +3,10 @@ import csv
 from spacy.lang.de.stop_words import STOP_WORDS
 
 punctuation = [",", ".", "!", "?", "-", "_", ":", ";", "--", "-", "–", "%", "*"]
-custom_stop_words = ["grüne", "linke", "afd", "spd", "cdu", "csu", "fdp", "für", "über", "müssen", "inn", "inne", "vgl.", "kapitel", "frei", "demokrat", "beziehungsweise", "anderer", "vieler", "insbesondere", "dafür"]
+custom_stop_words = ["grüne", "linke", "afd", "spd", "cdu", "csu", "union", "fdp", "für", "über", "müssen", "inn", "inne", "vgl.", "kapitel", "frei", "demokrat", "beziehungsweise", "anderer", "vieler", "insbesondere", "dafür"]
 STOP_WORDS.update(punctuation)
 STOP_WORDS.update(custom_stop_words)
+
 
 # variant 1: Saving the whole manifesto text into one string.
 
@@ -77,8 +78,7 @@ def remove_stopwords_str(manifesto_lemmatized):
     return manifesto_clean
 
 
-# variant 2: Splitting the whole manifesto into a list of paragraphs in
-# order to iterate over them.
+# variant 2: Splitting the whole manifesto into a list of paragraphs in order to iterate over it.
 
 
 def csv_to_paragraphs(filename):
@@ -140,7 +140,6 @@ def lemmatize_par(long_paragraphs):
         for token in paragraph_processed:
             current_paragraph_lemmatized.append(token.lemma_.lower())
 
-        " ".join(current_paragraph_lemmatized)
         paragraphs_lemmatized.append(current_paragraph_lemmatized)
         current_paragraph_lemmatized = []
 

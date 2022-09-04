@@ -1,0 +1,26 @@
+{
+	"grüne": {
+	"1": ["arbeit", "digital"],
+	"2": ["asyl", "europäische union", "menschenrechte"]
+	},
+	"linke": {
+	"1": ["transport", "lastenfahrrad", "hafen"],
+	"2": ["lohn", "sozialversicherung", "menschenrechte"]
+	}, 
+	"spd": {
+	"1": ["gesellschaft", "respekt", "diskriminierung"],
+	"2": ["menschenrechte", "klimawandel", "impfstoff", "nato", "vereinte nationen"]
+	},
+	"fdp": {
+	"1": ["cybersicherheit", "it", "digital"],
+	"2": ["land", "demokratie", "vereinte nationen"]
+	}, 
+	"cdu": {
+	"1": ["flug", "deutschland", "schifffahrt"],
+	"2": ["it", "cybersicherheit"]
+	},
+	"afd": {
+	"1": ["migration", "europa", "armut"],
+	"2": ["verbraucher", "produktion", "lebensmittel"]
+	}
+}
