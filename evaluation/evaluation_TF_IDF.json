@@ -1,0 +1,32 @@
+{
+   "grüne": {
+      "mitgliedstaat": 0.24,
+      "außengrenze": 0.175,
+      "europäisch": 0.173
+   },
+   "linke": {
+      "lkw": 0.327,
+      "sozial": 0.264,
+      "mensch": 0.194
+   },
+   "spd": {
+      "global": 0.309,
+      "setzen": 0.188,
+      "international": 0.181
+   },
+   "fdp": {
+      "cybersicherheit": 0.282,
+      "strategisch": 0.172,
+      "herstellerinne": 0.172
+   },
+   "cdu": {
+      "kraftstoff": 0.222,
+      "schifffahrt": 0.182,
+      "welt": 0.154
+   },
+   "afd": {
+      "verbraucher": 0.259,
+      "global": 0.179,
+      "problem": 0.172
+   }
+}

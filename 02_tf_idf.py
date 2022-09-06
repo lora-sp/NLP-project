@@ -4,7 +4,7 @@ from scipy.sparse import coo_matrix
 import preprocessing as pp
 #import re ##???? braucht man das oder kann das weg
 import json
-from evaluation_data_extraction import eval_files
+from evaluation.evaluation_data_extraction import eval_files
 
 
 # Works with preprocessing variant 1 (the whole manifesto saved into a continuous string)
@@ -61,8 +61,9 @@ def extract_topn_from_vector(feature_names, sorted_items, topn=20):
     return results
 
 
-def tf_idf_eval():
-    """ A function that extracts the top 20 keywords per evaluation file and their tf-idf scores and stores them in a json file.
+# evaluation
+def eval_tf_idf():
+    """ A function that extracts the top 3 keywords per evaluation file and their tf-idf scores and stores them in a json file.
 
     Parameters
     ----------
@@ -92,19 +93,20 @@ def tf_idf_eval():
         doc = corpus[i]
         tf_idf_vector = tfidf_transformer.transform(cv.transform([doc]))
         sorted_items = sort_coo(tf_idf_vector.tocoo())
-        keywords = extract_topn_from_vector(feature_names, sorted_items, 3) #only the top 3 keywords
+        keywords = extract_topn_from_vector(feature_names, sorted_items, 3) 
         results[pp.filenames[i][:-14]] = keywords 
-        # with open("results/TF_IDF.json", 'w', encoding='utf-8') as f:
-        #     json.dump(results, f, ensure_ascii=False, indent=3)
+        with open("evaluation/evaluation_TF_IDF.json", 'w', encoding='utf-8') as f:
+            json.dump(results, f, ensure_ascii=False, indent=3)
 
     print(results) 
 
     return
 
 
-tf_idf_eval()
+eval_tf_idf()
 
 
+# result on the whole dataset
 def tf_idf():
     """ A function that extracts the top 20 keywords per manifesto and their tf-idf scores and stores them in a json file.
 

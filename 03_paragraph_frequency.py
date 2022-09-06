@@ -1,7 +1,8 @@
 from collections import Counter
 import preprocessing as pp
 import spacy
-from evaluation_data_extraction import eval_files
+from evaluation.evaluation_data_extraction import eval_files
+
 
 # Paragraph approach, using the list of stop words but also considering a minimal length for paragraphs
 # Possibility to obtain a representative overview of the most common words per paragraph instead of considering the whole string
@@ -60,7 +61,7 @@ def most_frequent(paragraph_nouns):
 
 
 def most_frequent_eval(paragraph_nouns):
-    """ A function that counts the occurrences of each noun per paragraph and prints the 3 most frequent ones; for evaluation purposes.
+    """ A function that counts the occurrences of each noun per paragraph and prints the most frequent one; for evaluation purposes.
 
     Parameters
     ----------
@@ -82,13 +83,38 @@ def most_frequent_eval(paragraph_nouns):
 
 
 # evaluation:
-for file in eval_files:
-    print(most_frequent_eval(pp.remove_stopwords_par(pp.lemmatize_par(file))))
+def eval_paragraph_frequency():
+    """ A function that stores the most noun word per evaluation file and its frequency in a json file.
+
+    Parameters
+    ----------
+    None
+
+    Returns
+    -------
+    None
+    """ 
+    results = {}
+    for filename in pp.filenames:
+        data = open('evaluation/eval_' + filename[:-14] + '.json', 'r', encoding='utf8')
+        #data = ' '.join(data)
+        data_lemmatized = pp.lemmatize_par(data)
+        data_clean = pp.remove_stopwords_par(data_lemmatized)
+        data_most_frequent = most_frequent_eval(data_clean)
+        results[filename[:-14]] = data_most_frequent
+
+    with open('evaluation/evaluation_Paragraph_Frequency.json', 'w', encoding='utf-8') as f:
+        json.dump(results, f, ensure_ascii=False, indent=3)
+
+    return
+
+
+eval_paragraph_frequency()
 
 
 # result on the whole dataset:  
 def paragraph_frequency():
-    """ A function that stores the most common word per paragraph in the manifestos and its frequency in a json file.
+    """ A function that stores the most noun per paragraph in the manifestos and its frequency in a json file.
 
     Parameters
     ----------

@@ -1,4 +1,3 @@
-from re import L
 import preprocessing as pp
 from collections import Counter
 import json
@@ -46,43 +45,35 @@ def most_frequent_eval(manifesto_clean):
 
 
 # evaluation:
-results = {}
-for filename in pp.filenames:
-    data = open('manifestos/' + filename[:-14] + '_eval.json', 'r', encoding='utf8')
-    data = ' '.join(data)
-    data_lemmatized = pp.lemmatize_str(data)
-    data_clean = pp.remove_stopwords_str(data_lemmatized)
-    data_most_frequent = most_frequent_eval(data_clean)
-    results[filename[:-14]] = data_most_frequent
+def eval_string_frequency():
+    """ A function that stores the 3 most common words occurring in the evaluation files and their frequency in a json file.
 
-with open('evaluation/eval_String_Frequency.json', 'w', encoding='utf-8') as f:
-    json.dump(results, f, ensure_ascii=False, indent=3)
+    Parameters
+    ----------
+    None
 
-#def accuracy(most_frequent_strings):
-data = open('results/eval_String_Frequency.json', 'r', encoding='utf8')
-data2 = open('evaluation/evaluation_expected_outcomes.json', 'r', encoding='utf8')
-data = json.load(data)
-data2 = json.load(data2)
-print(data)
-print(data2)   
-print(data["grüne"])
-print(data2["grüne"])
-lst = [] 
-lst.append(data2["grüne"]["1"])
-lst.append(data2["grüne"]["2"])
-print(lst)
-for i in range(len(data2["grüne"]["1"])):
-    lst.append(data2["grüne"]["1"][i])#
-for i in range(len(data2["grüne"]["2"])):
-    lst.append(data2["grüne"]["2"][i])
-print(lst)
-counter = 0
-for word in lst:
-    for tuple in data["grüne"]:
-        print(tuple[0], word)
-        if tuple[0] == word:
-            counter += 1
-print(counter)
+    Returns
+    -------
+    None
+    """ 
+    results = {}
+    for filename in pp.filenames:
+        data = open('evaluation/eval_' + filename[:-14] + '.json', 'r', encoding='utf8')
+        data = ' '.join(data)
+        data_lemmatized = pp.lemmatize_str(data)
+        data_clean = pp.remove_stopwords_str(data_lemmatized)
+        data_most_frequent = most_frequent_eval(data_clean)
+        results[filename[:-14]] = data_most_frequent
+
+    with open('evaluation/evaluation_String_Frequency.json', 'w', encoding='utf-8') as f:
+        json.dump(results, f, ensure_ascii=False, indent=3)
+
+    return
+
+
+eval_string_frequency()
+
+
 # result on the whole dataset:
 def string_frequency():
     """ A function that stores the 50 most common words occurring in the manifestos and their frequency in a json file.

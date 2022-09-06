@@ -1,0 +1,86 @@
+{
+   "grüne": [
+      [
+         [
+            "digital",
+            3
+         ]
+      ],
+      [
+         [
+            "europäisch",
+            5
+         ]
+      ]
+   ],
+   "linke": [
+      [
+         [
+            "kosten",
+            3
+         ]
+      ],
+      [
+         [
+            "mensch",
+            6
+         ]
+      ]
+   ],
+   "spd": [
+      [
+         [
+            "gesellschaft",
+            5
+         ]
+      ],
+      [
+         [
+            "global",
+            19
+         ]
+      ]
+   ],
+   "fdp": [
+      [
+         [
+            "cybersicherheit",
+            4
+         ]
+      ],
+      [
+         [
+            "weltweit",
+            2
+         ]
+      ]
+   ],
+   "cdu": [
+      [
+         [
+            "schifffahrt",
+            3
+         ]
+      ],
+      [
+         [
+            "welt",
+            2
+         ]
+      ]
+   ],
+   "afd": [
+      [
+         [
+            "europa",
+            3
+         ]
+      ],
+      [
+         [
+            "verbraucher",
+            3
+         ]
+      ]
+   ]
+}
