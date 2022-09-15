@@ -2,12 +2,11 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
 from scipy.sparse import coo_matrix
 import preprocessing as pp
-#import re ##???? braucht man das oder kann das weg
 import json
 from evaluation.evaluation_data_extraction import eval_files
 
 
-# Works with preprocessing variant 1 (the whole manifesto saved into a continuous string)
+# Works with preprocessing variant 1 (the whole manifesto saved into a string)
 
 
 def sort_coo(coo_matrix):
@@ -100,8 +99,6 @@ def eval_tf_idf():
 
     print(results) 
 
-    return
-
 
 eval_tf_idf()
 
@@ -141,8 +138,6 @@ def tf_idf():
         results[pp.filenames[i][:-14]] = keywords 
         with open("results/TF_IDF.json", 'w', encoding='utf-8') as f:
             json.dump(results, f, ensure_ascii=False, indent=3)
-
-    return
     
     
 tf_idf()

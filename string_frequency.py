@@ -4,8 +4,7 @@ import json
 from evaluation.evaluation_data_extraction import eval_files
 
 
-# Pure Frequency Approach, using only the list of stop words to eliminate frequent words
-# Works with preprocessing variant 1 (the whole manifesto saved into a continuous string)
+# Works with preprocessing variant 1 (the whole manifesto saved into a string)
 
 
 def most_frequent(manifesto_clean):
@@ -68,8 +67,6 @@ def eval_string_frequency():
     with open('evaluation/evaluation_String_Frequency.json', 'w', encoding='utf-8') as f:
         json.dump(results, f, ensure_ascii=False, indent=3)
 
-    return
-
 
 eval_string_frequency()
 
@@ -96,8 +93,6 @@ def string_frequency():
 
     with open('results/String_Frequency.json', 'w', encoding='utf-8') as f:
         json.dump(results, f, ensure_ascii=False, indent=3)
-    
-    return 
 
 
 string_frequency()

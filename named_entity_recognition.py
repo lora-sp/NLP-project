@@ -5,7 +5,7 @@ import preprocessing as pp
 from evaluation.evaluation_data_extraction import eval_files
 
 
-# Works with preprocessing variant 1 (manifesto as one continuous string)
+# Works with preprocessing variant 1 (the whole manifesto saved into a string)
 
 
 def manifesto_to_ne(manifesto_as_str):
@@ -84,8 +84,6 @@ def eval_named_entity_recognition():
     with open('evaluation/evaluation_Named_Entity_Recognition.json', 'w', encoding='utf-8') as f:
         json.dump(results, f, ensure_ascii=False, indent=3)
 
-    return
-
 
 eval_named_entity_recognition()
 
@@ -110,8 +108,6 @@ def named_entity_recognition():
 
     with open('results/Named_Entity_Recognition.json', 'w', encoding='utf-8') as f:
         json.dump(results, f, ensure_ascii=False, indent=3)
-
-    return 
 
 
 named_entity_recognition()

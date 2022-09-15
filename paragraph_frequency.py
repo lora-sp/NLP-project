@@ -105,8 +105,6 @@ def eval_paragraph_frequency():
     with open('evaluation/evaluation_Paragraph_Frequency.json', 'w', encoding='utf-8') as f:
         json.dump(results, f, ensure_ascii=False, indent=3)
 
-    return
-
 
 eval_paragraph_frequency()
 
@@ -134,8 +132,6 @@ def paragraph_frequency():
 
     with open('results/Paragraph_Frequency.json', 'w', encoding='utf-8') as f:
         json.dump(results, f, ensure_ascii=False, indent=3)
-
-    return
 
 
 paragraph_frequency()
