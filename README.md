@@ -3,19 +3,22 @@ Dieses Repository enthält den Programmcode zu der Projektarbeit im Rahmen des K
 
 
 #### Inhaltsverzeichnis
-- [Datensatz](#datensatz)
 - [Installation](#installation)
+- [Datensatz](#datensatz)
+- [Unterordner](#unterordner)
 - [Ausführung](#ausführung)
 
-
-## Datensatz
-Der Datensatz wurde dem [Manifesto Project](https://visuals.manifesto-project.wzb.eu/mpdb-shiny/cmp_dashboard_dataset/) entnommen. Dabei wurde zur Eingrenzung als Jahr 2021 und als Land Deutschland ausgewählt. Die sechs übrigen Dateien wurden im annotierten csv-Dateiformat heruntergeladen. 
-Als Datenbeispiel können die zufällig generierten und bereinigten Evaluationsausschnitte im Unterordner "evaluation" angesehen werden. Diese tragen die Namen eval_"Parteiname".json. 
 
 ## Installation
 Alle Dateien im Ordner "project" müssen heruntergeladen werden. 
 Für diese Arbeit wurde die Python-Version 3.10.5 benutzt.
 Mit `pip install -r requirements.txt` werden alle benötigten Bibliotheken installiert. Die Versionen der Bibliotheken sind jeweils dort aufgeführt. 
+
+## Datensatz
+Der Datensatz wurde dem [Manifesto Project](https://visuals.manifesto-project.wzb.eu/mpdb-shiny/cmp_dashboard_dataset/) entnommen. Dabei wurde zur Eingrenzung als Jahr 2021 und als Land Deutschland ausgewählt. Die sechs übrigen Dateien wurden im annotierten csv-Dateiformat heruntergeladen. 
+
+## Unterordner
+Im Unterordner "manifestos" befinden sich die csv-Dateien der Wahlprogramme. Im Unterordner "results" befinden sich die Ergebnisse der vier Methoden auf dem großen Datensatz. Die Ergebnisse der vier Methoden auf dem kleinen Datensatz befinden sich im Unterordner "evaluation". Als Datenbeispiel können die zufällig generierten und bereinigten Evaluationsausschnitte in diesem angesehen werden. Diese tragen die Namen eval_"Parteiname".json. Dort befindet sich auch der Code zur Extraktion dieser Textabschnitte.
 
 ## Ausführung
 Zunächst wird die Datei "preprocessing.py" ausgeführt. Dort werden die Daten auf zwei verschiedene Arten bereinigt. In der ersten Variante der Datenbereinigung wird der gesamte Fließtext der Wahlprogramme in einem String gespeichert. In der zweiten Variante wird der Text in Absätze geteilt und in einer Liste von Strings gespeichert. Dabei werden die Überschriften nicht miteinbezogen. Zur Bereinigung wird jeweils der Text aus der ersten Spalte der csv-Datei gespeichert, woraufhin die Wörter lemmatisiert und Stoppwörter entfernt werden. 
@@ -31,5 +34,5 @@ Hierbei wird die Datei "named_entity_recognition.py" benötigt. Dort werden die 
 
 
 ### Häufigste Wörter pro Abschnitt
-Hierbei wird die Datei "paragraph_frequency.py" benötigt. Dort werden die im vorherigen Schritt bereinigten Daten weiterverarbeitet. Dabei sollen die häufigsten 3 Wörter pro Abschnitt in einer json-Datei gespeichert werden. Um dasselbe Ziel auf den Evaluationsausschnitten zu erreichen, wurde die Funktion entsprechend modifiziert, um anstatt die häufigsten 3 nur das eine häufigste Wort pro Abschnitt auszugeben. 
+Hierbei wird die Datei "paragraph_frequency.py" benötigt. Dort werden die im vorherigen Schritt bereinigten Daten (Variante 2) weiterverarbeitet. Dabei sollen die häufigsten 3 Wörter pro Abschnitt in einer json-Datei gespeichert werden. Um dasselbe Ziel auf den Evaluationsausschnitten zu erreichen, wurde die Funktion entsprechend modifiziert, um anstatt die häufigsten 3 nur das eine häufigste Wort pro Abschnitt auszugeben. 
 
