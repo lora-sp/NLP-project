@@ -1,4 +1,4 @@
-# NLP Project: Main Topic Extraction
+# NLP Projekt: Main Topic Extraction
 Dieses Repository enthält den Programmcode zu der Projektarbeit im Rahmen des Kurses "Advanced NLP with Python" zum Thema "Main Topic Extraction anhand deutschsprachiger Wahlprogramme". 
 
 
@@ -15,7 +15,7 @@ Für diese Arbeit wurde die Python-Version 3.10.5 benutzt.
 Mit `pip install -r requirements.txt` werden alle benötigten Bibliotheken installiert. Die Versionen der Bibliotheken sind jeweils dort aufgeführt. 
 
 ## Datensatz
-Der Datensatz wurde dem [Manifesto Project](https://visuals.manifesto-project.wzb.eu/mpdb-shiny/cmp_dashboard_dataset/) entnommen. Dabei wurde zur Eingrenzung als Jahr 2021 und als Land Deutschland ausgewählt. Die sechs übrigen Dateien wurden im annotierten csv-Dateiformat heruntergeladen. 
+Der Datensatz wurde dem [Manifesto Project](https://visuals.manifesto-project.wzb.eu/mpdb-shiny/cmp_dashboard_dataset/) entnommen. Dabei wurde zur Eingrenzung als Jahr 2021 und als Land Deutschland ausgewählt. Die sechs daraus resultierenden Dateien wurden im annotierten csv-Dateiformat heruntergeladen. 
 
 ## Unterordner
 Im Unterordner "manifestos" befinden sich die csv-Dateien der Wahlprogramme. Im Unterordner "results" befinden sich die Ergebnisse der vier Methoden auf dem großen Datensatz. Die Ergebnisse der vier Methoden auf dem kleinen Datensatz befinden sich im Unterordner "evaluation". Als Datenbeispiel können die zufällig generierten und bereinigten Evaluationsausschnitte in diesem angesehen werden. Diese tragen die Namen eval_"Parteiname".json. Dort befindet sich auch der Code zur Extraktion dieser Textabschnitte.
