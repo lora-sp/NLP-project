@@ -90,7 +90,7 @@ eval_named_entity_recognition()
 
 # result on the whole dataset:
 def named_entity_recognition():
-    """ A function that stores the 10 most common named entities occurring in the manifestos and their frequency in a json file.
+    """ A function that stores the 50 most common named entities occurring in the manifestos and their frequency in a json file.
 
     Parameters
     ----------
