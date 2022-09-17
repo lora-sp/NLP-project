@@ -3,9 +3,9 @@ Dieses Repository enthält den Programmcode zu der Projektarbeit im Rahmen des K
 
 
 #### Inhaltsverzeichnis
-- [Datensatz](#data)
+- [Datensatz](#datensatz)
 - [Installation](#installation)
-- [Ausführung](#usage)
+- [Ausführung](#ausführung)
 
 
 ## Datensatz
@@ -18,4 +18,7 @@ Für diese Arbeit wurde die Python-Version 3.10.5 benutzt.
 Mit `pip install -r requirements.txt` werden alle benötigten Bibliotheken installiert. Die Versionen der Bibliotheken sind jeweils dort aufgeführt. 
 
 ## Ausführung
-Zunächst wird die Datei "preprocessing.py" ausgeführt. Dort werden die Daten auf zwei verschiedene Arten bereinigt. In der ersten Variante der Datenbereinigung wird der gesamte Fließtext der Wahlprogramme in einem String gespeichert. In der zweiten Variante wird der Text in Absätze geteilt und in einer Liste von Strings gespeichert. Dabei werden die Überschriften nicht miteinbezogen. 
+Zunächst wird die Datei "preprocessing.py" ausgeführt. Dort werden die Daten auf zwei verschiedene Arten bereinigt. In der ersten Variante der Datenbereinigung wird der gesamte Fließtext der Wahlprogramme in einem String gespeichert. In der zweiten Variante wird der Text in Absätze geteilt und in einer Liste von Strings gespeichert. Dabei werden die Überschriften nicht miteinbezogen. Zur Bereinigung wird jeweils der Text aus der ersten Spalte der csv-Datei gespeichert, woraufhin die Wörter lemmatisiert und Stoppwörter entfernt werden. 
+
+### Häufigste Wörter pro Text
+Hierbei wird die Datei "string_frequency.py" benötigt. Die 
