@@ -10,7 +10,7 @@ Dieses Repository enthält den Programmcode zu der Projektarbeit im Rahmen des K
 
 
 ## Installation
-Alle Dateien im Ordner "project" müssen heruntergeladen werden. 
+Alle Dateien im Projektordner müssen heruntergeladen werden. 
 Für diese Arbeit wurde die Python-Version 3.10.5 benutzt.
 Mit `pip install -r requirements.txt` werden alle benötigten Bibliotheken installiert. Die Versionen der Bibliotheken sind jeweils dort aufgeführt. 
 

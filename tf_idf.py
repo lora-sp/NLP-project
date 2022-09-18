@@ -1,6 +1,5 @@
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
-from scipy.sparse import coo_matrix
 import preprocessing as pp
 import json
 from evaluation.evaluation_data_extraction import eval_files

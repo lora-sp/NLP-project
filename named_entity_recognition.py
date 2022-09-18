@@ -2,7 +2,6 @@ import spacy
 import json
 from collections import Counter
 import preprocessing as pp
-from evaluation.evaluation_data_extraction import eval_files
 
 
 # Works with preprocessing variant 1 (the whole manifesto saved into a string)

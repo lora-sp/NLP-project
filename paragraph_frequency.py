@@ -1,7 +1,6 @@
 from collections import Counter
 import preprocessing as pp
 import spacy
-from evaluation.evaluation_data_extraction import eval_files
 
 
 # Works with preprocessing variant 2 (manifesto divided into paragraphs)
