@@ -34,5 +34,5 @@ Hierbei wird die Datei "named_entity_recognition.py" benötigt. Dort werden die 
 
 
 ### Häufigste Wörter pro Abschnitt
-Hierbei wird die Datei "paragraph_frequency.py" benötigt. Dort werden die im vorherigen Schritt bereinigten Daten (Variante 2) weiterverarbeitet. Dabei sollen die häufigsten 3 Wörter pro Abschnitt in einer json-Datei gespeichert werden. Um dasselbe Ziel auf den Evaluationsausschnitten zu erreichen, wurde die Funktion entsprechend modifiziert, um anstatt die häufigsten 3 nur das eine häufigste Wort pro Abschnitt auszugeben. 
+Hierbei wird die Datei "paragraph_frequency.py" benötigt. Dort werden die im vorherigen Schritt bereinigten Daten (Variante 2) weiterverarbeitet. Dabei sollen die häufigsten 3 Wörter pro Abschnitt in einer json-Datei gespeichert werden. Um dasselbe Ziel auf den Evaluationsausschnitten zu erreichen, wurde die Funktion entsprechend modifiziert, um anstatt die häufigsten 3 nur das eine häufigste Wort pro Abschnitt auszugeben. Es kann außerdem wahlweise die Funktion "nouns_only" zur Filtration nach Nomen verwendet werden, bevor die Häufigkeit pro Abschnitt bestimmt wird.
 
